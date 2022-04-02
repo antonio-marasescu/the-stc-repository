@@ -1,7 +1,5 @@
 # Terraform Standard Template Construct
 
-## Content
-
 ## Commands
 
 Basic pipeline:
@@ -51,7 +49,7 @@ Where:
 - `example` is Resource Name
 - `ami` is an argument for the resource
 
-You can make a reference to a resource by using an Identifier "<provider>_<provider_resource>.<resource_name>.<output_variable> (E.g.: `aws_instance.example.id`)
+You can make a reference to a resource by using an Identifier `<provider>_<provider_resource>.<resource_name>.<output_variable>` (E.g.: `aws_instance.example.id`)
 
 ### Meta-arguments 
 
@@ -194,5 +192,65 @@ output "db_password" {
 }
 ```
 
+## Data Sources
+- Allows terraform to use information defined outside of terraform.
+- It allows only to read infrastructure, not change it.
 
-## Remote State
+```
+data "aws_ami" "example" {
+  most_recent = true
+
+  owners = ["self"]
+  tags = {
+    Name   = "app-server"
+    Tested = "true"
+  }
+}
+
+resource "aws_instance" "web" {
+  ami           = data.aws_ami.web.id
+  instance_type = "t1.micro"
+}
+```
+
+## Terraform Settings
+Terraform settings are gathered together into terraform blocks, that allows for either specifing a specific version of a provider or even keeping the state in a remote `backend`.
+```
+terraform {
+    required_providers {
+    aws = {
+      version = ">= 2.7.0"
+      source = "hashicorp/aws"
+    }
+  }
+}
+```
+
+### Remote State with AWS S3
+
+You will need a:
+- An S3 bucket (you will need its name)
+- The path where you will store the `terraform.tfstate` inside the bucket
+- An DynamoDB table (used for state locking: "making sure just one person modifies the state at a certain point in time")
+    - The Primary Key/Hash Key with the name `LockID` with the type of `String`
+- The region of your AWS resources
+
+For more info see: https://www.terraform.io/language/settings/backends/s3
+
+Example:
+
+```
+terraform {
+    backend "s3" {
+        bucket = "kodecloud-terraform-state-bucket01"
+        key = "finance/terraform.tfstate"
+        region = "us-west-1"
+        dynamodb_table = "state-locking"
+    }
+}
+
+```
+
+Steps:
+- add terraform backend inside a file called "terraform.tf" (good practice for holding configuration of terraform).
+- do `terraform init` and `terraform apply` locally to initialize the state
