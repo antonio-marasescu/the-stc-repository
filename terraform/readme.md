@@ -254,3 +254,7 @@ terraform {
 Steps:
 - add terraform backend inside a file called "terraform.tf" (good practice for holding configuration of terraform).
 - do `terraform init` and `terraform apply` locally to initialize the state
+
+## Functions and Conditional Expressions
+
+## Modules
