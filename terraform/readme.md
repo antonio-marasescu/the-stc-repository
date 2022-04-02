@@ -5,6 +5,7 @@
 ## Commands
 
 Basic pipeline:
+
 ```
 terraform init -> terraform plan -> terraform apply
 ```
@@ -28,7 +29,7 @@ terraform init -> terraform plan -> terraform apply
 
 All the files that have a `.tf` extension and where `terraform init` is run will create a Root Module (Note: there exist a json-based variant of the language for terraform).
 
-Once `terraform plan` or `terraform apply` it will create a `terraform.tfstate` file which will hold the state of all your deployed resources. (See Remote State)
+Once `terraform plan` or `terraform apply` it will create a `terraform.tfstate` file which will hold the state of all your deployed resources. (See more Remote State)
 
 ## Language Basics
 
@@ -52,9 +53,70 @@ Where:
 
 You can make a reference to a resource by using an Identifier "<provider>_<provider_resource>.<resource_name>.<output_variable> (E.g.: `aws_instance.example.id`)
 
-### Variables 
+### Meta-arguments 
 
-#### Input
+- `depends_on` for handling resource inter-dependencies
+```
+resource "aws_iam_role_policy" "example" {
+  name   = "example"
+  role   = aws_iam_role.example.name
+  # Insert other code here
+}
+
+resource "aws_instance" "example" {
+  ami           = "ami-a1b2c3d4"
+  # Insert other code here
+  depends_on = [
+    aws_iam_role_policy.example,
+  ]
+}
+```
+- `count` used to create multiple instances of an object (it uses a list under the hood)
+
+```
+resource "aws_instance" "server" {
+  count = 4 # create four similar EC2 instances
+
+  ami           = "ami-a1b2c3d4"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "Server ${count.index}"
+  }
+}
+```
+- `for_each` used also for creating multiple instances but it uses a map/set for managing the resources created
+```
+resource "azurerm_resource_group" "rg" {
+  for_each = {
+    a_group = "eastus"
+    another_group = "westus2"
+  }
+  name     = each.key
+  location = each.value
+}
+resource "aws_iam_user" "the-accounts" {
+  for_each = toset( ["Todd", "James", "Alice", "Dottie"] )
+  name     = each.key
+}
+```
+- `lifecycle` 
+```
+resource "azurerm_resource_group" "example" {
+  # ...
+
+  lifecycle {
+    create_before_destroy = true
+  }
+}
+```
+- Types
+    - `create_before_destroy`: bool
+    - `prevent_destroy`: bool
+    - `ignore_changes`: (list of attribute names) 
+## Variables 
+
+### Input
 
 ```
 variable "availability_zone_names" {
@@ -80,7 +142,7 @@ availability_zone_names = [
 
 ```
 
-#### Output
+### Output
 
 Allows for expose information for other terraform configuration and offer data in the command line
 
