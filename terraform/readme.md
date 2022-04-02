@@ -100,7 +100,7 @@ resource "aws_iam_user" "the-accounts" {
   name     = each.key
 }
 ```
-- `lifecycle` 
+- `lifecycle` used for managing the lifecycle of resources
 ```
 resource "azurerm_resource_group" "example" {
   # ...
@@ -114,6 +114,31 @@ resource "azurerm_resource_group" "example" {
     - `create_before_destroy`: bool
     - `prevent_destroy`: bool
     - `ignore_changes`: (list of attribute names) 
+
+- `provider` allows for configuration of a specific provider
+
+```
+# default configuration
+provider "google" {
+  region = "us-central1"
+}
+
+# alternate configuration, whose alias is "europe"
+provider "google" {
+  alias  = "europe"
+  region = "europe-west1"
+}
+
+resource "google_compute_instance" "example" {
+  # This "provider" meta-argument selects the google provider
+  # configuration whose alias is "europe", rather than the
+  # default configuration.
+  provider = google.europe
+
+  # ...
+}
+```
+
 ## Variables 
 
 ### Input
