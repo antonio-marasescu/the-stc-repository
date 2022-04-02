@@ -36,15 +36,15 @@ terraform init -> terraform plan -> terraform apply
   workspace     Workspace management
 ```
 
-## 2. Files Basics
+## 2. Files Basics [:book:](#content)
 
 All the files that have a `.tf` extension and where `terraform init` is run will create a Root Module (Note: there exist a json-based variant of the language for terraform).
 
 Once `terraform plan` or `terraform apply` it will create a `terraform.tfstate` file which will hold the state of all your deployed resources. (See more Remote State)
 
-## 3. Language Basics
+## 3. Language Basics [:book:](#content)
 
-### 3.1 Blocks
+### 3.1 Blocks [:book:](#content)
 
 ```
 resource "aws_instance" "example" {
@@ -64,7 +64,7 @@ Where:
 
 You can make a reference to a resource by using an Identifier `<provider>_<provider_resource>.<resource_name>.<output_variable>` (E.g.: `aws_instance.example.id`)
 
-### 3.2 Meta-arguments 
+### 3.2 Meta-arguments [:book:](#content)
 
 - `depends_on` for handling resource inter-dependencies
 ```
@@ -150,9 +150,9 @@ resource "google_compute_instance" "example" {
 }
 ```
 
-## 4. Variables 
+## 4. Variables [:book:](#content) 
 
-### 4.1 Input
+### 4.1 Input [:book:](#content)
 
 ```
 variable "availability_zone_names" {
@@ -178,7 +178,7 @@ availability_zone_names = [
 
 ```
 
-### 4.2 Output
+### 4.2 Output [:book:](#content)
 
 Allows for expose information for other terraform configuration and offer data in the command line
 
@@ -205,7 +205,7 @@ output "db_password" {
 }
 ```
 
-## 5. Data Sources
+## 5. Data Sources [:book:](#content)
 - Allows terraform to use information defined outside of terraform.
 - It allows only to read infrastructure, not change it.
 
@@ -226,7 +226,7 @@ resource "aws_instance" "web" {
 }
 ```
 
-## 6. Terraform Settings
+## 6. Terraform Settings [:book:](#content)
 Terraform settings are gathered together into terraform blocks, that allows for either specifing a specific version of a provider or even keeping the state in a remote `backend`.
 ```
 terraform {
@@ -239,7 +239,7 @@ terraform {
 }
 ```
 
-### 6.1 Remote State with AWS S3
+### 6.1 Remote State with AWS S3 [:book:](#content)
 
 You will need a:
 - An S3 bucket (you will need its name)
