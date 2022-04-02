@@ -1,7 +1,7 @@
 # Terraform Standard Template Construct
 ## Content
 
-- [1. Commands](#1-commands-bookcontent)
+- [1. Commands](#1-commands)
 - [2. Files Basics](#2-files-basics-bookcontent)
 - [3. Language Basics](#3-language-basics-bookcontent)
   - [3.1 Blocks](#31-blocks-bookcontent)
@@ -13,7 +13,9 @@
 - [6. Terraform Settings](#6-terraform-settings-bookcontent)
   - [6.1 Remote State with AWS S3](#61-remote-state-with-aws-s3-bookcontent)
   
-## 1. Commands [:book:](#content)
+## 1. Commands
+
+[:book:](#content)
 
 Basic pipeline:
 
