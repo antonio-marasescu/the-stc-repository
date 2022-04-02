@@ -1,6 +1,19 @@
 # Terraform Standard Template Construct
+## Content
 
-## Commands
+- [1. Commands](#1-commands)
+- [2. Files Basics](#2-files-basics)
+- [3. Language Basics](#3-language-basics)
+  - [3.1 Blocks](#31-blocks)
+  - [3.2 Meta-Arguments](#32-meta-arguments)
+- [4. Variables](#4-variables)
+  - [4.1 Input](#41-input)
+  - [4.2 Output](#42-output)
+- [5. Data Sources](#5-data-sources)
+- [6. Terraform Settings](#6-terraform-settings)
+  - [6.1 Remote State with AWS S3](#61-remote-state-with-aws-s3)
+  
+## 1. Commands [:book:](#content)
 
 Basic pipeline:
 
@@ -23,15 +36,15 @@ terraform init -> terraform plan -> terraform apply
   workspace     Workspace management
 ```
 
-## Files Basics
+## 2. Files Basics
 
 All the files that have a `.tf` extension and where `terraform init` is run will create a Root Module (Note: there exist a json-based variant of the language for terraform).
 
 Once `terraform plan` or `terraform apply` it will create a `terraform.tfstate` file which will hold the state of all your deployed resources. (See more Remote State)
 
-## Language Basics
+## 3. Language Basics
 
-### Blocks
+### 3.1 Blocks
 
 ```
 resource "aws_instance" "example" {
@@ -51,7 +64,7 @@ Where:
 
 You can make a reference to a resource by using an Identifier `<provider>_<provider_resource>.<resource_name>.<output_variable>` (E.g.: `aws_instance.example.id`)
 
-### Meta-arguments 
+### 3.2 Meta-arguments 
 
 - `depends_on` for handling resource inter-dependencies
 ```
@@ -137,9 +150,9 @@ resource "google_compute_instance" "example" {
 }
 ```
 
-## Variables 
+## 4. Variables 
 
-### Input
+### 4.1 Input
 
 ```
 variable "availability_zone_names" {
@@ -165,7 +178,7 @@ availability_zone_names = [
 
 ```
 
-### Output
+### 4.2 Output
 
 Allows for expose information for other terraform configuration and offer data in the command line
 
@@ -192,7 +205,7 @@ output "db_password" {
 }
 ```
 
-## Data Sources
+## 5. Data Sources
 - Allows terraform to use information defined outside of terraform.
 - It allows only to read infrastructure, not change it.
 
@@ -213,7 +226,7 @@ resource "aws_instance" "web" {
 }
 ```
 
-## Terraform Settings
+## 6. Terraform Settings
 Terraform settings are gathered together into terraform blocks, that allows for either specifing a specific version of a provider or even keeping the state in a remote `backend`.
 ```
 terraform {
@@ -226,7 +239,7 @@ terraform {
 }
 ```
 
-### Remote State with AWS S3
+### 6.1 Remote State with AWS S3
 
 You will need a:
 - An S3 bucket (you will need its name)
