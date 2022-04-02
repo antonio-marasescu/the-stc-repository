@@ -1,7 +1,7 @@
 # The STC Repository
 
 ## Description
-A collection of Standard Templates for Construction of software
+A collection of Standard Templates for Construction of Software.
 
 ## Content
 - [Terraform STC](./terraform/readme.md)
