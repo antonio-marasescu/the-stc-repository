@@ -1,6 +1,13 @@
 # On what is Knowledge
 
-Knowledge comes in different flavours, either mental or physical. Physical Knowledge is the ability to learn how your body functions, while mental knowlege is how your mind functions and what it retains.
+Knowledge comes in different flavours, either mental, physical or emotional.
+Physical Knowledge is the ability to learn how your body functions, while mental knowlege is how your mind functions and what it retains. 
+Emotional knowledge is how you feel about something in a certain context.
+
+**Note**: Some will argue that emotional and mental knowledge are one and the same, or that all three flavours presented are just physical, this again depends on the context of your thinking approach. 
+Do you prefer to think that you are just an organic robot and everything you feel is given by a set of events in your body, or are you an abstract entity which also inhabits a body. The truth can be both or none, `As above, so below`, maybe you are just physical knowldge or maybe you are more than three, or maybe you are you own
+flavour of knowldge. 
+This knowlegde is for you to discover, only if you choose to do so, and this requires for you to apply the Concept of **Change**.
 
 # On expanding Conscience
 
@@ -60,4 +67,29 @@ On the subject learning from a repository of knowledge, I will also like to poin
 Everything is true in a certain context, even your own thoughts and ideas are true in the context of your mind. Exploring different contexts leads to different scenarios, and each scenario offers a different set of rules of how each action is performed.
 
 ## Experiences
+This referes to situations, either physical or mental, which your consience experience during its lifetime.
+These can vary and the my approach for their classification is by my definition in the idea of `Mastering an Experience`.
+What I mean by that, is the situation where your experience with a thinking process, a physical event is so great that your own consience finds that experience mundane. 
+Also, I want to point out is that mundanity of an experience is given also by the emotional impact it has on you and the context that experience is performed.
+
+So, my classification is the following:
+- Mundane Experiences (You have done it so many times, you don't even think to much about it and you don't learn anything new from them. E.g.: "drinking coffee")
+- Normal Experiences (They happen sometimes and you still learn something new from them (either emotionally, mentally or phyiscally))
+- Rare Experiences (These can happen extremelly rare or maybe never yet happened, they help you learn something you didn't know perfectly, or you didn't know, they help you feel something new, or something you never yet mastered)
+```
+Examples:
+- Having to go through a rollercoaster, and you have a fear of them => multiple experiences can help you master that fear.
+- Having to go through a rollecoaster, you love them => multiple experience can help you master that love, for it to reach mundanity.
+- Experiencing a different culture, you've never been there => learn how they think and act
+- Experiencing a different culture, you've been there but you just learned minimal information about their culture => learn a more profound knowledge of their culture.
+- Going out with your friends to an old pub => mundane, you have done that so many times
+- Going out with your friends to a new pub => normal experience, you learn something new about a new pub.
+```
+
+Each of these experience, depending on their contexts and on you require a different number of re-experience for you to fully master. 
+From these category the rare experience most quickly help you gain a value in expanding your consience, but repeated and more profound certain experiences can provide a greater quantity of value in your expansion.
+
+## Emotions
+
+Not everything can
 
