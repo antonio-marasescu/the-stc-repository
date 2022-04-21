@@ -1,3 +1,7 @@
+# On what is Knowledge
+
+Knowledge comes in different flavours, either mental or physical. Physical Knowledge is the ability to learn how your body functions, while mental knowlege is how your mind functions and what it retains.
+
 # On expanding Conscience
 
 My thoughts are focused on improving on-self. Usually, the notion human use is that through knowledge one can become more.
@@ -23,7 +27,9 @@ I will also argue, that the programmer is becoming actually stagnant in his appr
 Stagnancy leads to comfort, Comfort leads to fear of change.
 ```
 
-So what kind of knowledge is useful? This lead me to the following categories:
+So what kind of knowledge is useful? My train of thought leads to the idea that knowledge is useful when it can change something in you,
+either in your mental process or in your physical body.
+Thus, my thinking lead me to the following categories:
 1. Ideas
 2. Experiences
 3. Emotions
@@ -40,4 +46,18 @@ These can come from the following sources:
    - Imagining different possible situations for a problem or events.
    - Thinking how you can make an event lead to a better or worst outcome (remember to not only think about the good)
   ```
-  - Learned from repositories of knowledge (people, written sources)
+2. Learned from repositories of knowledge (people, written sources)
+  ```
+   Examples:
+    - Learning about events from books (how people in history handled different situations)
+    - Learning about concepts, ideas from a tutorial video
+    - Learning about life-experience of other people
+    - Learning about fantasy/sci-fi ideas in books (this will help you expand your creativity)
+  ```
+And again these two categories can be composed. The example will be that you learn something from a repository, then imagine how such knowledge can be improved or handled diffrently.
+
+On the subject learning from a repository of knowledge, I will also like to point out to take such an information always with a grain of salt. 
+Everything is true in a certain context, even your own thoughts and ideas are true in the context of your mind. Exploring different contexts leads to different scenarios, and each scenario offers a different set of rules of how each action is performed.
+
+## Experiences
+
