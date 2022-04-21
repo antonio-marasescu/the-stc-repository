@@ -91,5 +91,21 @@ From these category the rare experience most quickly help you gain a value in ex
 
 ## Emotions
 
-Not everything can
+I find that emotions are a great way to expand your context space. Depending on how you feel about something, it changes your perspective on a certain event.
+Being fearful about doing something, loving a certain event, can make an experience more profound. `Profound`, even that one word triggers a different reaction in how you feel, for every person something `profound` is not the same as for another. Emotion can change how your mental image about an event is formed and it helps you modify how you approach learning about something.
+That is why I usually promote the mastering of one emotions. Remember I say `master` and not `control`, for I find that by controlling one emotions you limit yourself in how expand your conscience. Expanding and developing something requires the concept of `Change`, and change is born from `Chaos` and focused through `Order`.
+Mastering one emotion is allowing one-self to change how one experience something (experience, idea) by force of will at any given time.
+
+Therefore, on subject of expanding your conscience through emotion I will offer the following advice:
+- Try to experience as many different events as possible so that they become more mundane.
+- Use your mastering of emotions to switch contexts of different ideas and experiences and expand upon them.
+- Try new experiences to learn diferent things and what kind of emotion you have about that thing.
+
+Examples:
+```
+  You fear that rollercoaster, go try it and learn to master your fear.
+  How do feel about a war in a certain remote area, think about being about one of the people being invaded, think about being the one who is doing the invasion and knowing your war is false, think about being the one who is doing the invasion and truly believing in your war.
+  Taste some new kind of food, do you love/hate it? Can you try to force yourself to love it?
+  How do you feel about a certain person? Can you try to force youself to hate/love him?
+```
 
