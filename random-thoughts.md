@@ -41,10 +41,12 @@ Thus, my thinking lead me to the following categories:
 2. Experiences
 3. Emotions
 
+They by itself are powerful starting places, but you can gain different levels of value if you try to compose them, to make one category affect the other.
+
 ## Ideas
 These can come from the following sources:
 1. Ideas gained from outside sources
-  - Learned from introspection of oneself
+  - Learned from introspection of one-self
   ```
    Examples: 
    - Thinking about different issues or happenings in your life and how to modify them (improving a situation, different approach in a conversation, etc)
