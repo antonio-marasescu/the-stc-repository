@@ -3,5 +3,24 @@
 ## Description
 A collection of Standard Templates for Construction of Software, Ideas and Behaviour.
 
-## Content
-- [Terraform STC](./terraform/readme.md)
+## Infrastructure as Code (IAC) STC
+- [Terraform](./terraform/readme.md)
+
+## Web Development STC
+
+### General Concepts
+
+- [Browsers](./webdev/browsers.md)
+- [Bundling](./webdev/bundling.md)
+- [JavaScript](./webdev/javascript.md)
+- [Optimization](./webdev/optimization.md)
+- [Security](./webdev/security.md)
+- [Styling](./webdev/styling.md)
+
+### Frameworks
+- [Angular](./webdev/angular.md)
+- [React](./webdev/react.md)
+
+
+## Philosophy and Spiritualism STC
+- [Philosophy](./philosophy/knowledge-and-expanding-consicence.md)
