@@ -10,7 +10,6 @@ A collection of Standard Templates for Construction of Software, Ideas and Behav
 
 ### General Concepts
 
-- [Browsers](./webdev/browsers.md)
 - [Bundling](./webdev/bundling.md)
 - [JavaScript](./webdev/javascript.md)
 - [Optimization](./webdev/optimization.md)
