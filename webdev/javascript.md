@@ -30,12 +30,16 @@ function or program which created it exits and only if the JavaScript
 execution stack is empty, but before returning control to the event 
 loop being used by the user agent to drive the script's execution environment.
 ```
-- Task
+A micro-task will be queued to be handled before the start of the next event loop
+
+- Task Definition
 ```
 A task is any JavaScript code which is scheduled to be run by the 
 standard mechanisms such as initially starting to run a program, 
 an event callback being run, or an interval or timeout being fired.
 ```
+
+A task will be queued to be handled after the start of the next event loop.
 
 - How it works
 
@@ -53,6 +57,23 @@ left in the queue, even if more keep getting added.
 ```
 
 - Note: Promises callbacks are set using Micro-task
+
+**Useful example**
+```javascript
+console.log('a');
+setTimeout(() => console.log('b'), 0);
+Promise.resolve().then(() => console.log('c'));
+console.log('d');
+
+// Result
+
+// a
+// d
+// c
+// b
+```
+
+- See also: https://www.youtube.com/watch?v=vn3tm0quoqE
 
 ## 4. Execution Context
 
