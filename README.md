@@ -10,12 +10,14 @@ A collection of Standard Templates for Construction of Software, Ideas and Behav
 
 ### General Concepts
 
+- [Browser API](./webdev/browser-features.md)
 - [Bundling](./webdev/bundling.md)
 - [JavaScript](./webdev/javascript.md)
 - [Optimization](./webdev/optimization.md)
-- [ExJs](./webdev/rxjs.md)
+- [RxJs](./webdev/rxjs.md)
 - [Security](./webdev/security.md)
 - [Styling](./webdev/styling.md)
+- [Web Communication](./webdev/web-communication.md)
 
 ### Frameworks
 - [Angular](./webdev/angular.md)
