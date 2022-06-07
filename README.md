@@ -13,6 +13,7 @@ A collection of Standard Templates for Construction of Software, Ideas and Behav
 - [Bundling](./webdev/bundling.md)
 - [JavaScript](./webdev/javascript.md)
 - [Optimization](./webdev/optimization.md)
+- [ExJs](./webdev/rxjs.md)
 - [Security](./webdev/security.md)
 - [Styling](./webdev/styling.md)
 
