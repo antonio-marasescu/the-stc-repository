@@ -50,3 +50,17 @@ Type of observable that allows values to be multicast to many observers
 | asapScheduler           | uses the microtask queue (same one used by promises)      |
 | asyncScheduler          | uses setInterval for scheduling                           |
 | animationFrameScheduler | schedules task to run just before browser content repaint |
+
+## Operators
+
+### Pipeable Operator
+
+`A Pipeable Operator is a function that takes an Observable as its input and returns another Observable. It is a pure operation: the previous Observable stays unmodified.`
+
+Examples: `filter(...)`, `mergeMap(...)`
+
+### Creation Operator
+
+`can be called as standalone functions to create a new Observable.`
+
+Examples: `of(1, 2, 3)`, `interval(1000)`
