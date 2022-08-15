@@ -1,9 +1,8 @@
 # Amazon Web Services (AWS)
 
-## Cloud Computing
+AWS provides Cloud computing which means providing capabilities for a developer to don't manage his infrastructure at home/work and only focus on development.
 
-Providing capabilities for a developer to don't manage his infrastructure at home/work and only focus on development.
-
+There are several types of how access can be provided:
 - **IaaS** (Infrastructure as a Service) 
   - provides building blocks for cloud IT
   - provides networking, computers and data storage space
@@ -16,29 +15,6 @@ Providing capabilities for a developer to don't manage his infrastructure at hom
   - is a completed product that is run and managed by a service provider
   - Note: you directly interact through an application for every feature (e.g.: Rekognition, Dropbox, Gmail, etc.)
 
-## Identity Access Management (IAM)
+## Content
 
-It has the following capabilities:
-- It is a global service
-- It allows for creating users and groups which you can assign policies.
-- These policies define the permissions of the users
-- Follow the least privilege principle (don't give more permissions that a user needs)
-
-### Policies
-One or more IAM Policies can be assigned either to a *User Group* or to a individual *User*.
-
-A Policy is structure in the following way:
-- Version: policy language version
-- ID (Optional): identifier of that policy
-- Statement (one or more required individual statements):
-  - Sid (optional): identified of that statement
-  - Effect: whether the statement allows or denies access ("Allow" or "Deny")
-  - Principal: account/user/role to which this policy is applied to.
-  - Action: list of actions this policy allows or denies
-  - Resource: list of resources to which the actions are applied to.
-  - Condition: conditions for when this policy is in effect (optional).
-
-
-
-
-
+### [Identity Access Management Readme](aws-iam.md)
