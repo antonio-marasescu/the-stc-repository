@@ -18,3 +18,4 @@ There are several types of how access can be provided:
 ## Content
 
 ### [Identity Access Management Readme](aws-iam.md)
+### [Elastic Compute Cloud (EC2) Readme](aws-ec2.md)
