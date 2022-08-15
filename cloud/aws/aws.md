@@ -17,5 +17,5 @@ There are several types of how access can be provided:
 
 ## Content
 
-### [Identity Access Management Readme](aws-iam.md)
-### [Elastic Compute Cloud (EC2) Readme](aws-ec2.md)
+### [1. IAM: Identity Access Management](aws-iam.md)
+### [2. EC2: Elastic Compute Cloud](aws-ec2.md)
