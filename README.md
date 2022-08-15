@@ -3,8 +3,11 @@
 ## Description
 A collection of Standard Templates for Construction of Software, Ideas and Behaviour.
 
+## Cloud Development STC
+- [AWS](./cloud/aws/aws.md)
+
 ## Infrastructure as Code (IAC) STC
-- [Terraform](./terraform/readme.md)
+- [Terraform](iac/terraform/terraform.md)
 
 ## Web Development STC
 
@@ -22,7 +25,3 @@ A collection of Standard Templates for Construction of Software, Ideas and Behav
 ### Frameworks
 - [Angular](./webdev/angular.md)
 - [React](./webdev/react.md)
-
-
-## Philosophy and Spiritualism STC
-- [Philosophy](./philosophy/knowledge-and-expanding-consicence.md)
