@@ -18,4 +18,5 @@ There are several types of how access can be provided:
 ## Content
 
 ### [1. IAM: Identity Access Management and Organizations](aws-identity-access-and-organizations.md)
-### [2. EC2: Elastic Compute Cloud](aws-ec2.md)
+### [2. Cognito](aws-cognito.md)
+### [3. EC2: Elastic Compute Cloud](aws-ec2.md)
