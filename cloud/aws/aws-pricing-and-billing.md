@@ -108,3 +108,8 @@ Note: Similar Service **Elastic File System (EFS)** (pay per use, has infrequent
 - Trafic between regions costs ($0.02)
 
 ## Saving Plans
+
+You have different type of plans where you commit a certain amount of dollars per hour for 1 or 3 years
+- EC2 Saving Plans (commit to usage of individual instance families in a region)
+- Compute Saving plans (for EC2, Fargate, Lambda), very flexible, it just requires a $ commitment
+- Machine Learning Saving Plans for services like SageMaker
