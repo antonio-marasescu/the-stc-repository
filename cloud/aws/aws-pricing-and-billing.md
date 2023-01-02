@@ -123,11 +123,76 @@ You have different type of plans where you commit a certain amount of dollars pe
 - [Pricing Calculator](https://calculator.aws): estimate the cost for your solution architecture
 
 ### Tracking Costs
-- Billing Dashboard
-- Cost Allocation Tags
-- Cost and Usage Reports
-- Cost Explorer
+- Billing Dashboard: shows an overview of the costs incured
+  - also has a free tier dashboard to monitor free tier usage
+- Cost Allocation Tags: allows to track costs on a detalied level. You also have [Tag Editor](https://docs.aws.amazon.com/tag-editor/latest/userguide/tagging-resources.html) to find and edit tags for your resources and group them in resources groups
+- Cost and Usage Reports: a comprehensive & granular set of aws costs and data available, including additonal metadata about services, pricing and reservations. Can be integrated and analysed using Athena, Redshift and QuickSight.
+- Cost Explorer: visualize, understand and manage your aws costs and usage over time. Create custom reports to analyze costs and usage at various degree of granularity (monthly, hourly, resource-level). Moreover, you can forecast usage up to 12 months based on previous usage.
 
 ### Monitoring against costs
-- Billing Alarms
-- Budgets
+- Billing Alarms: you can create them with the use of the data from Cloud-Watch (region specific), it is used for actual costs not for projected costs.
+- Budgets: create budget and send alarms when costs (or forecasts) exceed the budget
+  - 3 types of budgest: Usage, Cost, Reservation
+  - for Reserverd Instances (RI) it can track utilization
+  - Supports up to 5 SNS (Simple Notification Service) notifications per budget
+  - Can filter by service, linked account, tag, purchase option, instance type, region, etc.
+  - Same options as Cost Explorer
+  - 2 budgets are free, then they cost ($0.02/day/budget)
+
+## Trusted Advisor
+
+- It comes out of the box (no need to install anything)
+- It represent a tool which makes a high level aws account assesment and offer recommendations.
+- Analyzes your aws accounts and provides recommendation on 5 categories *(required by exam)*:
+  - **Cost Optimization**
+  - **Performance**
+  - **Security**
+  - **Fault Tolerance**
+  - **Service Limits**
+- It offer some check based on support plans *(required by exam)*
+  -  For Basic & Developer Support Plan you have 7 Core Checks
+    -  S3 Bucket Permissions
+    -  Security Groups - Specific Ports Unrestricted
+    -  IAM Use
+    -  MFA on Root Account
+    -  EBS Public Snaphsots
+    -  RDS Public Snapshots
+    -  Service Limits
+  -  For Business & Enterprise Support Plan you have Full Checks and you get extra:
+    -  Full Checks available on the 5 categories (Cost optimization, perforamnce, fault tolerance, security, service limits)
+    -  Ability to set CloudWatch alarms when reaching limits
+    -  Programatic Access using AWS Support API
+ 
+ ## Support Plans Pricing for AWS 
+ 
+ *(required by exam)*
+ 
+ - **Basic Support** (free) and you get:
+  - Customer Service & Communities - 24x7 access to customer service, documentation, whitepapers and support forums
+  - For Trusted Advisor we only get access to 7 core checks and guidance to provision your resources following best practices
+  - Personal Health Dashboard
+ - **Developer Support**
+  - get everything from the Basic Support Plan
+  - Business hours email access to Cloud Support Associates
+  - Unlimited cases/ 1 primary contact
+  - Response times based on case severity (general guidance < 24 business hours, system impaired < 12 business hours)
+- **Business Support**
+  - intended to be used if you have production workloads
+  - Trusted Advisor: full set of checks + api access
+  - 24x7 phone, email and chat access to Cloud Support Engineers
+  - Unlimited cases/ Unlimited contacts
+  - Access to Infrastructure Event Management for additional fee
+  - Response times based on case severity (general guidance < 24 business hours, system impaired < 12 business hours, production system impaired < 4 hours, production system down < 1 hour)
+- **Enterprise On-Ramp Support** 
+  - intended to be used if you have production or business crtical workloads
+  - All of Business Suppoort Plan features
+  - Access to a pool of technical account managers (TAM)
+  - Concierge Support Team (for billing and account best practices)
+  - Infrastucture Event Management, Well-Architected & Operations Reviews
+  - Response times based on case severity (...same as Business Support, Business critical system down < 30 minutes)
+- **Enterprise Support** 
+  - intended to be used if you have mission crtical workloads
+  - All of Businsess Support Plan
+  - Access to a designated Technical Account Manager (TAM)
+  - ...same things as on Enterprise On-Ramp
+  - Response times based on case severity (...same as Business Support, Business critical system down < 15 minutes)
