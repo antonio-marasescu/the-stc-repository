@@ -127,7 +127,7 @@ You have different type of plans where you commit a certain amount of dollars pe
   - also has a free tier dashboard to monitor free tier usage
 - Cost Allocation Tags: allows to track costs on a detalied level. You also have [Tag Editor](https://docs.aws.amazon.com/tag-editor/latest/userguide/tagging-resources.html) to find and edit tags for your resources and group them in resources groups
 - Cost and Usage Reports: a comprehensive & granular set of aws costs and data available, including additonal metadata about services, pricing and reservations. Can be integrated and analysed using Athena, Redshift and QuickSight.
-- Cost Explorer: visualize, understand and manage your aws costs and usage over time. Create custom reports to analyze costs and usage at various degree of granularity (monthly, hourly, resource-level). Moreover, you can forecast usage up to 12 months based on previous usage.
+- Cost Explorer: visualize, understand and manage your aws costs and usage over time. Create custom reports to analyze costs and usage at various degree of granularity (monthly, hourly, resource-level). Moreover, you can forecast usage up to 12 months based on previous usage and **helps you choose an optimal saving plans**
 
 ### Monitoring against costs
 - Billing Alarms: you can create them with the use of the data from Cloud-Watch (region specific), it is used for actual costs not for projected costs.
