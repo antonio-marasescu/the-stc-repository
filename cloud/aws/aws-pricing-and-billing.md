@@ -31,7 +31,7 @@
 
 **Pricing Models**:
 - On-demand instances:
-  - Minimum of 60 second, you pay per second (Linux/Windows) or per hour
+  - Minimum of 60 second, you **pay per second** (Linux/Windows) or per hour
 - Reserverd instances
   - Up to 75% discount compared to On-demand on hourly rate
   - 1-3 year commitmennt
