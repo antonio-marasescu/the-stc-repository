@@ -113,3 +113,21 @@ You have different type of plans where you commit a certain amount of dollars pe
 - EC2 Saving Plans (commit to usage of individual instance families in a region)
 - Compute Saving plans (for EC2, Fargate, Lambda), very flexible, it just requires a $ commitment
 - Machine Learning Saving Plans for services like SageMaker
+
+## Costs Tools
+### Services for cost optimization
+
+- [Compute Optimizer](https://aws.amazon.com/compute-optimizer/): reduce costs and improve performance by recommending optimal aws for your workloads. Also helps you choose optimal configurations and right-size your workloads (over/under provisioned). Supports: EC2, EC2 ASG, EBS, Lambda
+
+### Estimating Costs
+- [Pricing Calculator](https://calculator.aws): estimate the cost for your solution architecture
+
+### Tracking Costs
+- Billing Dashboard
+- Cost Allocation Tags
+- Cost and Usage Reports
+- Cost Explorer
+
+### Monitoring against costs
+- Billing Alarms
+- Budgets
