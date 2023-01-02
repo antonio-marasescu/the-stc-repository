@@ -191,7 +191,7 @@ You have different type of plans where you commit a certain amount of dollars pe
   - Infrastucture Event Management, Well-Architected & Operations Reviews
   - Response times based on case severity (...same as Business Support, Business critical system down < 30 minutes)
 - **Enterprise Support** 
-  - intended to be used if you have mission crtical workloads
+  - intended to be used if you have mission critical workloads
   - All of Businsess Support Plan
   - Access to a designated Technical Account Manager (TAM)
   - ...same things as on Enterprise On-Ramp
