@@ -16,3 +16,95 @@
 - Elastic Beanstalk         ---- you pay for the resources created
 - CloudFormation            ---- you pay for the resources created
 - Auto Scaling Groups       ---- you pay for the resources created
+- [Free Tier](https://aws.amazon.com/free/)
+
+
+## Pricing per services & networking
+
+### EC2
+
+- Charged for what you use
+- Number of instances
+- Instance configuration (phyical capacity, region, os and sotftware, instance type, instance size)
+- ELB running time and amount of data processed
+- Detailed monitoring (enable if you want cloudwatch metrics every minute, but it costs)
+
+**Pricing Models**:
+- On-demand instances:
+  - Minimum of 60 second, you pay per second (Linux/Windows) or per hour
+- Reserverd instances
+  - Up to 75% discount compared to On-demand on hourly rate
+  - 1-3 year commitmennt
+  - All upfront, partial upfront, no upfront payment (less discount later you pay)
+- Spot Instances
+  - Up to 90% discount compared to On-demand on hourly rate
+  - Bid for unused capacity (you can lose if someone wants to outbid you for the spot instances)
+- Dedicated Host
+  - On-demand
+  - Reservation for 1-3 years commitment
+- Saving Plans as an alternative to save on sustained usage
+
+### Lambda
+
+- pay per call
+- pay per duration
+
+### ECS
+- EC2 Lanuch Type Model: no additional fees, you pay for the aws resources stored and created in your application
+
+### Fargate
+- Fargate Launch Type Model: Pay vor vCPU and memory resources allocated to your applications in your containers
+
+### S3
+- Storage Class: S3 Standard, S3 Infrequent Access, S3 One-Zona IA, S3 Intelligent Tiering, S3 Glacier and S3 Glacier Deep Archive
+- Number and size of objects (price can be tiered based on volume)
+- Number and type of requests
+- Data transfer out of the S3 region
+- S3 Transfer Acceleration
+- Lifecycle transitinos
+
+Note: Similar Service **Elastic File System (EFS)** (pay per use, has infrequent access & lifecycle rules)
+
+### EBS
+
+- Volume Type (based on performance)
+- Storage volume in GB per month **provisioned**
+- Input/Output operations per second (IOPS):
+  - General Purpose SSD (included in the price)
+  - Provisioned IOPS SSD - pay per provisioned amount in IOPS
+  - Magnetic: Number of requests
+- Snapshots (Added data cost per GB per month)
+- Data Transfer (outbound data transfer are tiered for volume discounts, inbound is free)
+
+### RDS
+
+- Per hour billing
+- Database characteristics:
+  - Engine
+  - Size
+  - Memory Class
+- Purchase Type
+  - On-demand
+  - Reserved instance (1 or 3 years) with required up-front
+- Backup Storage (Usually there is no additional charge for backup storage up to 100% of your total database storage for a region)
+- Additiona Storage (per GB per month)
+- Number of I/O request per month
+- Deplyoment Type (Single AZ/Multiple AZ)
+- Data Transfer (outbound date transfer are tiered for volume discounts, inbound is free)
+
+### Cloudfront
+
+- Pricing different across geographic regions
+- Aggregated for each edge location, then applied to your bill 
+- Data Transfer Out (volume discount)
+- Number of HTTP(s) requests
+
+### Networking Costs in AWS per GB
+
+- Inbound trafic from outside aws is free
+- Trafic between services in the same AZ are free
+- Trafic between availability zones (using private IP) costs ($0.01)
+- Trafic between availabity zones (using public ip/elastic ip) costs ($0.02)
+- Trafic between regions costs ($0.02)
+
+## Saving Plans
