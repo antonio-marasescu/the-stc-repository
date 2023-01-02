@@ -132,8 +132,20 @@ Therefore you can do the following to better manage your different accounts:
 ```
 
 
+#### Consolidated Billing
 
+When enabled it provides you with:
 
+- Combined Usage: combine usage across all AWS accounts in the AWS Organization to share volume pricing, reserved instances and saving plans discounts.
+- One Bill: get one bill for all aws accounts in the aws organizations
+
+#### AWS Control Tower
+
+It represents an easy way to set up and govern a secure and compliant multi-account AWS environment based on best-practices. It runs on top of AWS Organizations and it has the following benefits:
+- Automate the set up of your environment in a few clicks
+- Automate ongoing policy management using guardrails
+- Detect policy violations and remediate them
+- Monitor compliance through an interactive dashboard
 
 
 
