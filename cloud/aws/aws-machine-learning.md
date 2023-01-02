@@ -12,6 +12,6 @@ AWS provides different services for various uses cases using machine learning:
 8. [SageMaker](https://aws.amazon.com/sagemaker/) fully-managed service for developers/data scientist to build ML models.
 9. [Forecast](https://aws.amazon.com/forecast/) uses ML to deliver highly accurate forecasts based on provided historical **time-series** data. Use cases: Resource Planning, Financial Planning, etc.
 10. [Kendra](https://aws.amazon.com/kendra/) fully managed document search service using ML, extract answers from within provided documents, learns from user interaction/feedback to promote prefered results.
-11. [Personalize](https://aws.amazon.com/personalize/) fully managed service to provide real-time personalized recommendations using ML. Same techonlogy used at www.amazom.com
+11. [Personalize](https://aws.amazon.com/personalize/) fully managed service to provide real-time personalized recommendations using ML. Same techonlogy used at www.amazon.com
 12. [Textract](https://aws.amazon.com/textract/) used to extract text, handwriting and data from any scanned document using ML.
 
