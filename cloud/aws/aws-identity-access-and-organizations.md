@@ -101,3 +101,40 @@ The benefits of using it are the following:
 - Allows you to restrict account privilieges using Service Control Policies (SCP)
 
 ### Multi-Account Strategies
+
+
+The idea behind this is to create accounts for different groups (per departament, per cost-center, per dev/test/prod) based on regulatory restrictions using Service Control Policies (SCP) for better resource isolation (ex: VPC), to have separate per-account service limits and isoated account for logging.
+
+Therefore you can do the following to better manage your different accounts:
+- Have a Multi Account vs One Account with Multi Virtual Private Cloud (VPC)
+- Use tagging standards for billing purposes
+- Enable CloudTrail on all account and send logs to a central S3 account
+- Send CloudWatch Logs to central logging account
+
+#### Service Control Policies (SCP)
+
+
+- Allows you to whitelist or blacklist IAM actions, it is applied at the Organizational Unit or account level, but it is not applied to the master account.
+- It itself is applied to all users and roles of the account (including Root), but it is not applied to service-linked roles (they enable other aws services to integrate with aws organizations).
+- Must have an explicit Allow (does not allow anything by default)
+- Example: restrict access to certain services (e.g.: EC2, EMR), enforce PCI compliance.
+
+#### Hierachy
+```
+ Root OU
+     Master Account
+        Prod OU
+            Account A
+                HR OU
+                    Account B
+                Finance OU
+                    Account C
+```
+
+
+
+
+
+
+
+
