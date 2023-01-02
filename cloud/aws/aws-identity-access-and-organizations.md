@@ -122,13 +122,13 @@ Therefore you can do the following to better manage your different accounts:
 #### Hierachy
 ```
  Root OU
-     Master Account
+     - Master Account
         Prod OU
-            Account A
+            - Account A
                 HR OU
-                    Account B
+                    - Account B
                 Finance OU
-                    Account C
+                    - Account C
 ```
 
 
