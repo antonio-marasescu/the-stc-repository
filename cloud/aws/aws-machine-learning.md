@@ -14,4 +14,5 @@ AWS provides different services for various uses cases using machine learning:
 10. [Kendra](https://aws.amazon.com/kendra/) fully managed document search service using ML, extract answers from within provided documents, learns from user interaction/feedback to promote prefered results.
 11. [Personalize](https://aws.amazon.com/personalize/) fully managed service to provide real-time personalized recommendations using ML. Same techonlogy used at www.amazon.com
 12. [Textract](https://aws.amazon.com/textract/) used to extract text, handwriting and data from any scanned document using ML.
+13. [Macie](https://aws.amazon.com/macie/) a data security service that uses machine learning (ML) and pattern matching to discover and help protect your sensitive data
 
