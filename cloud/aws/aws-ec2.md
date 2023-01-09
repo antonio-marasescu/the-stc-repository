@@ -47,3 +47,69 @@ It basically offers a server (IaS) with the options to customize:
 - Spot Instances - short workloads, cheap, can lose instances (less reliable). You can "lose" at any point of time if your max price is less that the current spot price.
 - Dedicated hosts - book an entire physical server, control instance placement
 - Capacity Reservations - reserve capacity in a specific AZ for any duration
+
+## EC2 Instance Storage
+
+### Elastic Block Store Volume (EBS)
+
+- Is a **network drive** you can attach to your instances while they run (it uses the network to communicate => some minor latency).
+- It allows your instancecs to persist data, even after their termination
+- They can only be mounted to one instance at a time (at the CCP level)
+- They are bound to a specific availability zone
+- They can detached and attached to another EC2 quickly
+- Provisioned Capacity (size in GBs and IOPS)
+
+#### EBS Snapshots
+
+- Allows you to make a backup of your EBS volume at a point in time.
+- Not necessary to detach the volume to do snapshot but it is recommended
+- Can copy snapshots across AZ or Region
+
+### Amazon Machine Image (AMI)
+
+- represent a customization of an EC2 instance (with software pre-packaged => faster boot time)
+- they are built for a **specific region** (can be copied across regions)
+- You can launch them from
+  - A Public AMI (provided by AWS)
+  - Your own AMI (make and maintain yourself)
+  - AWS Marketplace AMI (somebody else made and sells)
+
+#### Construction of an AMI
+
+- Start EC2 => customize it => stop instance => build an AMI (will create EBS snapshots) => launch instance using the AMI
+- Use EC2 Image Builder (free of service / you only pay for underlying resources) => automate creation/maintain/validate/test of AMI and can be run on a schedule
+
+### EC2 Instance Store
+
+Represent a high-performance hardware disk which has the following properties:
+- Better I/0 performance
+- Lose storage if stopped (ephemeral)
+- Good for buffer / cache / scratch data / temporary content
+- Risk of data if hardware fails
+- Backup & Replication are your responability
+
+### Elastic File System (EFS)
+
+- Is a managed NFS (network file system) which **can be mounted on 100s of EC2**.
+- Works with **Linux** EC2 instances in **multi-AZ**
+- Highly available, scalable, expensive, pay per use, no capacity planning
+
+### EFS Infrequent Access (EFS-IA)
+
+- Storage class that is cost-optimized for files not accessed every days
+- EFS will automatically move your files to EFS-IA based on the last time they were accessed
+- Enable EFS-IA with a Lifecycle Policy 
+
+### Amazon FSx
+A fully-managed, high-performance file system on AWS.
+
+For Windows File Serve
+- **Windows native** shared file system
+- Built on Windows File Server
+- Supports SMB protocol & Windows NTFS
+- Integrated with Microsoft Active Directoy
+- Can be accessed from AWS or your on-premise infrastructure
+For Lustre (derived from 'Linux' and 'cluster')
+- used for Linux File System
+- used for High Performance Computing (HPC)
+- Scales up to 100s GB/s, million IOPS
