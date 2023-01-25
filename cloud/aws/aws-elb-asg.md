@@ -17,3 +17,11 @@ They are used for:
 - Do regular healthchecks
 - Provide SSL
 - High Availability
+
+## Elastic Load Balancer (ELB)
+
+Represents a managed load balancer (aws guarantees: it will be working, upgrades, maintenance, high availability, configuration knobs).
+It has 3 types:
+- Application Load Balancer (ALB) (HTTP(s)) - works on layer 7 (OSI model)
+- Network Load Balancer (NLB) (ultra-high performance, allows for TCP) - works on layer 4
+- Classic Load Balancer (slowly retiring) - works on layer 7 and 4
