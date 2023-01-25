@@ -1,4 +1,4 @@
-# Elastic Load Balancing (ELB) & Auto-Scalling Groups (ASG)
+# Elastic Load Balancer (ELB) & Auto-Scaling Groups (ASG)
 
 **Scalability** = application can handle greater loads by adapting
 
@@ -25,3 +25,22 @@ It has 3 types:
 - Application Load Balancer (ALB) (HTTP(s)) - works on layer 7 (OSI model)
 - Network Load Balancer (NLB) (ultra-high performance, allows for TCP) - works on layer 4
 - Classic Load Balancer (slowly retiring) - works on layer 7 and 4
+
+
+## Auto-Scaling Group (ASG)
+
+It represents a functionality which allows you:
+- Scale out (add EC2 instances) to match an increased load
+- Scale in (remove EC2 instance) to match a decreased load
+- Ensure minimun and maximum number of instances
+- Automatically register new instances to a load balancer
+- Replace unhealthy instances
+- Cost savings (only run at optimal capacity)
+
+**Scaling Strategies**
+1. Manual Scaling: Update the size (minimum, maximum, desired) of an ASG manually
+2. Dynamic Scaling: Respond to changing demand
+  - Simple / Step Scalling: based on threashold (CloudWatch CPU > 70% or < 30% => scale out / scale in)
+  - Target Tracking Scaling: E.g.: I want the average ASG CPU to stay around 40%
+  - Scheduled Scaling:  E.g.: increase minimum capacity to 10 at 5 pm
+  - Predictive Scaling: use ML to predict future trafic
