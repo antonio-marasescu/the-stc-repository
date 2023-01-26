@@ -119,3 +119,38 @@ Compliance Validation | S3 Replication Setup
 || Logging and Monitoring
 || S3 Storage Classes
 || Data encryption at rest and in transit
+
+
+## Snow Family 
+
+Highly-secure, portable devices to collect and process data at the edge (limited / no internet access or computing power) and migrate data into and out of AWS. Note if it takes more than a week to transfer over the network => use Snowball devices. All of them can run EC2 Instances & AWS lambda functions (using IoT Greengrass)
+
+Data Migration | Edge Computing
+|---|---|
+Snowcone | Snowcone
+Snowball Edge | Snowball Edge
+Snowmobile | 
+
+1. Snowball Edge
+- Physical data transport solution
+- Pay per data transfer job
+- Provide block storage and Amazon S3-compatible object storage
+- It can Storage Optimized (80TB HDD, 40vCPU, 80GiB RAM) or Compute Optimized (42TB HDD, 52vCPU, 208 GiB Ram)
+2. Snowcone
+- Portable computing
+- 8 TB of usable storage
+- Smaller device (use Snowcone where Snowball does not fit)
+- Can also be synced using **AWS DataSync** over the internet (alternative to offline option)
+3. Snowmobile
+- A very large truck to transfer exabytes of data
+- High security, temperature controlled
+- Use if you transfer more than 10 PB
+
+### Aws OpsHub = used to manage Snow Family Devices (transfering files, configuring devices, launching/managing instance s running on devices)
+
+## AWS Storage Gateway 
+
+- Bridge between on-premise data and cloud data in S3, Hybrid storage service to allow on-premises to seamlessly use the AWS cloud.
+- Use Cases: disaster recovery, backup & restore, tiered storage
+
+
