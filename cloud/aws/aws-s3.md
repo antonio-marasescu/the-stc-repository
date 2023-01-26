@@ -63,13 +63,59 @@ Note that copying is asynchronous and you must give proper IAM permissions to S3
 
 ## Storage Classes
 
-**Durability** = how long objects stored are expected to incur losses on average (e.g.: High Durability: 99.999999999% => 10,000,000 boject you can expect 1 single object loss every 10,000 years). For S3 is the same for all storage classes.
+**Durability** = how long objects stored are expected to incur losses on average (e.g.: High Durability: 99.999999999% => 10,000,000 boject you can expect 1 single object loss every 10,000 years). **For S3 is the same for all storage classes**.
 **Availabity** = measures how readility available a service is, varies depending on storage class
 
-S3 Standard - General Purpose
-S3 Standard-Infrequent Access (IA)
-S3 One Zone-Infrequent Access
-S3 Glacier Instant Retrieval
-S3 Glacier Flexible Retrieval
-S3 Glacier Deep Archive
-S3 Inteligent Tiering
+### Standard Class
+- S3 Standard - General Purpose 
+  - 99.99% Availability
+  - Used for frequently accessed data
+  - Low Latency and High Throughput
+  - Sustain 2 concurrent facility failures
+  - Use Cases: Big Data analytics, mobile & gaming applications, content distribution
+
+### Infrequent Access Class
+For data that is less frequently accessed but requires rapid access when needed.
+
+- S3 Standard-Infrequent Access (IA)
+  - 99.9 availability
+  - Use Cases: Disaster recovery, backups
+  - Lower Cost than General purpose
+- S3 One Zone-Infrequent Access
+  - High durability (99.999999999%) in a single AZ, data lost when AZ is destroyed
+  - 99.5% Availability
+  - Use Cases: Storing secondary backup copises of on-premise data or data you can recreate
+  - Lower Cost than Standard-Infrequent Access
+
+### Glacier Storage Class
+Low-cost object storage meant for archiving /backup. The pricing is based on price for storage + object retrieval cost.
+
+- S3 Glacier Instant Retrieval
+  - milisecond retrieval, great for data accessed once a quarter
+  - Minimum storage duration of 90 days
+  - Lower Cost than One Zone-Infrequent Access
+- S3 Glacier Flexible Retrieval
+  - Expedited (1 to 5 minutes), Standard (3 to 5 hours), Bulk (5 to 12 hours) - free
+  - Minimum storage duration of 90 days
+  - Lower Cost than S3 Glacier Instant Retrieval
+- S3 Glacier Deep Archive
+  - Standard (12 hours), Bulk (48 hours)
+  - Minimum storage duration of 180 days
+  - Lower Cost than S3 Glacier Deep Archive
+
+### Inteligent Class
+- S3 Inteligent Tiering
+  - Small monthly monitoring and auto-tiering fee
+  - Move access between access tiers based on usage
+  - No retrieval charges
+
+## Shared Responsability Model for S3
+
+AWS | You (client)
+|---|---|
+Infrastructure | S3 versioning
+Configuration and vulnerability analysis | S3 Bucket Policies
+Compliance Validation | S3 Replication Setup
+|| Logging and Monitoring
+|| S3 Storage Classes
+|| Data encryption at rest and in transit
