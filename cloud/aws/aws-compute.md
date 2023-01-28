@@ -30,7 +30,14 @@ Supports RESTful APIs and WebScoket APIs and for security, user authentication, 
 
 ## Lambda
 
+Represent virtual functions (FaaS), limited by time (up to 15 minutes), which run on-demand and scale automatically. They are used for any kind of work and are integrated with various AWS services (can be easily monitored through AWS CloudWatch). Has support for various languages (node.js, python, java, c#, goland, etc.) and container images (must implement Lambda Runtime API).
+
+In relation to pricing you **pay per call** and **pay per duration**.
+
 ## AWS Batch
+
+Fully managed batch (a job with a start and an end, not continuos) processing at any scale (run 100,000s of copmuting batch jobs on AWS).
+It will dynamically launch EC2 instances or Spot Instances, by defining Docker Images which run on ECS, and AWS Batch will provision the right amount of compute / memory.
 
 ### Batch vs Lamnda
 
@@ -42,3 +49,5 @@ Supports RESTful APIs and WebScoket APIs and for security, user authentication, 
 | Serverless | Relies on EC2 (can be managed by AWS) |
 
 ## Lightsail
+
+Offers a way for people with little cloud experience to build application by offering virtual Servers, storage, database and networking (as alternative to EC2, RDS, ELB, EBS, Route 53, ...) via an interactive AWS dashboard with high availability but no auto-scalling and limited AWS integrations.
