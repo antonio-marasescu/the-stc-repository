@@ -27,9 +27,32 @@
 
 ## CloudFormation
 
-## CDK (Cloud Development Kit)
+Represents a declarative way of outlining your AWS Infrastructure for any resources thus allowing you to create in the right order the exact configuration you specify.
+This is Infrastructure as Code allowing you:
+- greater degree of control
+- you can estimate costs of your resources using CloudFormation Template or through using tags or saving strategies (delete resource at 5pm)
+- you are more productive being able to destroy and re-create your infrastructure on the fly
+- you can leverage already exiting templates
+
+### CDK (Cloud Development Kit)
+
+This is a set o libraries allowing you to define your cloud infrastructure using a programming language (python, typescript, java, .net) and compiling into CloudFormation template (json/yaml)
 
 ## Elastic Beanstalk
+
+Is a developer centric view of deploying an application on AWS (using AWS components like EC2, ASG, ELB, RDS, etc..) with full control over the configuration. A managed service where just the application code is responsabile of the developer the rest is handled by Beanstalk:
+- Instance configuration / OS is handled by Beanstalk
+- Deployment strategy is configurable but performed by Elastic Beanstalk
+- Capacity Provision
+- Load balancing & auto-scaling
+- Application healh-monitoring & responsiveness
+
+Beanstalk = Platform as a Service (Paas).
+
+Beanstalk is free but you pay for the underlying instances and you have three architecture models:
+- Single Instance deployment (good for dev)
+- LB + ASG: great for production or pre-prod web app
+- ASG only: great for non-web apps in prod
 
 ## Code* Services
 
