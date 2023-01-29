@@ -56,8 +56,21 @@ A service to increase transfer speed of file upload by transfering to an AWS edg
 
 ### AWS Global Accelerator
 
+It helps improve global application **availability** and **performance** using the AWS global network. Basically it uses aws internal network to optimize the route to your application:
+- 2 anycast IP are created for you application and traffic is sent through edge locations
 
+As a comparison against CloudFront the AWS Global Accelerator is just proxying packets and improves performance for TCP or UDP (good for HTTP use cases that requried static IP addresses or deterministic fast regional failover)
 
 ### AWS Outposts
+
+Its intended for the Hybrid Cloud business (cloud + on premise infrastructure) by providing "server racks" that offers the same AWS functionality as cloud-based services. This is done by having AWS setup and manage "Outposts racks" withing your on-premise infrastructure (you will be responsabile for physical security).
+It offer low-latency, local data processing, data residency and a fully managed service with wide variety of AWS services working on it (EC2, EBS, S3, EKS, ECS, RDS, EMR).
+
 ### AWS WaveLength
+
+Wavelength Zones represent Infrastructure depyloment integrate with telecommunication providers datacenter at the edge of the 5G networks.
+Used for ultra-low latency application through 5G networks (traffic doesn't leave Communication Service Provider's (CSP) network).
+
 ### AWS Local Zones
+
+Placecs AWS compute, storage, databse and other selected AWS services closer to end users to run latency-sensistive application. Basically extends your VPC to more locations and is compatible with EC2, RDS, ECS, EBS, ElastiCache, etc.
