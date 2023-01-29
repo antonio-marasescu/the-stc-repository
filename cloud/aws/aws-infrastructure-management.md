@@ -58,18 +58,36 @@ Beanstalk is free but you pay for the underlying instances and you have three ar
 
 ### CodeDeploy
 
+Help with the deplyoment of an application, working in a **hybrid** manner both with EC2 instances and On-premises servers (provisioned and configured ahead of time with CodeDeploy Agent).
+
 ### CodeCommit
+
+An AWS Github alternative for storing code in a repository using Git.
 
 ### CodeBuild
 
+Code building service which helps compile source code, run tests and produces packages ready for deployment. Pay-as-you-go pricing and fully managed serverless.
+
 ### CodePipeline
+
+Helps orchestrate different stepts to have the code automatically pushed to production. It's compatible with the Code* Services (CodeCommit, CodeBuild, CodeDeploy, CloudFormation and ElastiBeanstalk) and with other 3rd-party services (e.g.: Github).
 
 ### CodeArtifact
 
+Its an artifact management system by AWS allowing for dependencies (npm, gradle, maven, yarn, twine, etc.).
+
 ### CodeStar
+
+An unified UI services to manage software developement activites in one place and allow quick-way start for setup of all Code* services.
 
 ## Cloud9
 
+A cloud-based IDE offered by AWS with real-time code collaboartion feature.
+
 ## SSM (Systems Manager)
 
+A hybrid aws services which helps you manage EC2 and On-premises instance through it. It need to install SSM agent on the machine and will allow you to run commands safely through it (no ssh access, bastion hosts or port 22 needed for access).
+
 ## OpsWork
+
+It's a servrices which allow you to manage Chef & Puppet infrastructure services on EC2 and On-premises VM (as an alternative to AWS SSM).
