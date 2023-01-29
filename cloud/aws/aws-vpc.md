@@ -52,7 +52,7 @@ The following are used:
 
 ### PrivateLink
 
-Most secure * scalable way to expose a service to 1000s of VPCs without requiring VPC peering, internet gateway, NAT, route tables. It requires a netwrok load balance (Service VPC) and ENI (Customer VPC)
+Most secure * scalable way to expose a service to 1000s of VPCs without requiring VPC peering, internet gateway, NAT, route tables. It requires a network load balance (Service VPC) and ENI (Customer VPC)
 
 ### Site to Site VPN & Direct Connect
 
