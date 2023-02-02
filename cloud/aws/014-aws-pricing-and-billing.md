@@ -53,7 +53,7 @@
 - EC2 Lanuch Type Model: no additional fees, you pay for the aws resources stored and created in your application
 
 ### Fargate
-- Fargate Launch Type Model: Pay vor vCPU and memory resources allocated to your applications in your containers
+- Fargate Launch Type Model: Pay for vCPU and memory resources allocated to your applications in your containers
 
 ### S3
 - Storage Class: S3 Standard, S3 Infrequent Access, S3 One-Zona IA, S3 Intelligent Tiering, S3 Glacier and S3 Glacier Deep Archive
