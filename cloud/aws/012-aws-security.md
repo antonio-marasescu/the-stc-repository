@@ -28,7 +28,7 @@
 - AWS Shield Standard = protects against DDOS attack for your website and applications for all customers at no additonal costs
 - AWS Shield Advanced = 24/7 premium DDOS protection
 - AWS WAF = filter specific request based on rules
-- CloudFront and Route53 = availability protection using global edge network, and combined with AWS Sheild provides attack mitigation at the edge
+- CloudFront and Route53 = availability protection using global edge network, and combined with AWS Shield provides attack mitigation at the edge
 
 ## AWS Shield
 
