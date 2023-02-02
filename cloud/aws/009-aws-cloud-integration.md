@@ -29,7 +29,7 @@ It's used for real-time big data streaming and represent a managed service used 
 - Kinesis Data Analytics: perform real-time analytics on streams using SQL.
 - Kinesis Video Streams: monitor real-time video streams for analytics or ML.
 
-## Simple Notification Service (SNS
+## Simple Notification Service (SNS)
 
 A fanout (publish messages to a topic and deliver to multiple subscribers) publisher/subscriber system, the messages will be delivered to all subscribers.
 
