@@ -117,7 +117,7 @@ You have different type of plans where you commit a certain amount of dollars pe
 ## Costs Tools
 ### Services for cost optimization
 
-- [Compute Optimizer](https://aws.amazon.com/compute-optimizer/): reduce costs and improve performance by recommending optimal aws for your workloads using ML. Also helps you choose optimal configurations and right-size your workloads (over/under provisioned). Supports: EC2, EC2 ASG, EBS, Lambda
+- [Compute Optimizer](https://aws.amazon.com/compute-optimizer/): reduce costs and improve performance by recommending optimal aws for your workloads using ML. Also helps you choose optimal configurations and right-size your workloads (over/under provisioned). Supports: EC2, ASG, EBS, Lambda
 
 ### Estimating Costs
 - [Pricing Calculator](https://calculator.aws): estimate the cost for your solution architecture
