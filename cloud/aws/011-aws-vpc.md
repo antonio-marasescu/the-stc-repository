@@ -30,7 +30,7 @@
 
 **NACL** (Network Acess Control List) = a firewall which control traffic to/from subnet with ALLOW/DENY rules, they are attached at subnet level and rules only include IP addresses
 
-**Security Groups** = a firewall that controls traffic to/from an **ENI/EC2** instance and which can only have ALLOW rules (include ip addresses and other security groups)
+**Security Groups** = a firewall that controls traffic to/from an **ENI (Elastic Network Interface)/EC2** instance and which can only have ALLOW rules (include ip addresses and other security groups)
 
 ### VPC Flow Logs
 
