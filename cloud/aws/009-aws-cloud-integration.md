@@ -12,7 +12,7 @@
   - Multiple Subscribers, send all messages to all of them
   - No message retention
 - Kinesis: real-time data streaming, persistence and analysis
-  - Amazon MQ: managed message broker for ActiveMQ and RabbitMQ in the cloud (MQTT, AMQP.. protocols)
+- Amazon MQ: managed message broker for ActiveMQ and RabbitMQ in the cloud (MQTT, AMQP.. protocols)
 
 ## Simple Queue Service (SQS)
 
