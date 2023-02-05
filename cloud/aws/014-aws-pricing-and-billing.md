@@ -8,6 +8,7 @@
 - **Pay less by using more**: volume-based discounts.
 - **Pay less as AWS grows**: cost-reductions as aws data-centers are created, they are known to do cost-reduction yearly.
 
+
 ### Free services & Free tier in AWS
 
 - IAM
@@ -18,6 +19,12 @@
 - Auto Scaling Groups       ---- you pay for the resources created
 - [Free Tier](https://aws.amazon.com/free/)
 
+## Credits
+
+Credits are applied in the following order:
+1. Soonest expiring
+2. Least number of applicable products
+3.Oldest credit
 
 ## Pricing per services & networking
 
