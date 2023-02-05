@@ -4,8 +4,8 @@ A **global** application is an application deployed in multiple geographic locat
 This will offer you decreased latency (time for a network packet to reach a server) and disaster recovery (if aws region goes to down represent a failover for you application to still work).
 
 On AWS this is made by:
-- **Regions**: for deploying applications and infrastructure
-- **Availability Zones** (inside of a region): made of multiple data centers
+- **Regions**: for deploying applications and infrastructure (consists of at least 3 Availability Zones)
+- **Availability Zones** (inside of a region): made of multiple data centers (one or more)
 - **Edge Location** (Points of Presence): for fast content delivery
 
 ## Summary
