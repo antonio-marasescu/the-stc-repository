@@ -1,0 +1,60 @@
+# Cloud Practitioner Questions
+
+- Which of the following use cases is best suited for Amazon Elastic File System (EFS) Standard–Infrequent Access (Standard–IA) storage class?
+  - Storing files in an accessible location to satisfy audit requirements
+- Which AWS service can help you create data-driven business cases for transitioning your business from on-premises to AWS Cloud?
+  - AWS Migration Evaluator
+- Which AWS Support plan provides general architectural guidance on how services can be used for various use-cases, workloads, or applications?
+  - Developer
+- AWS Identity and Access Management (IAM) policies are written as JSON documents. Which of the following are mandatory elements of an IAM policy?
+  - Effect, Action 
+- Amazon CloudWatch billing metric data is stored in which AWS Region?
+  - US East (N. Virginia) - us-east-1
+- A powerful search tool that can dig into these knowledge resources and return the most relevant files/documents. 
+  - Amazon Kendra
+- Which of the following are components of an AWS Site-to-Site VPN? (Select two)
+  - Virtual Private Gateway, Customer Gateway
+- Which of the following is correct regarding the AWS Shield Advanced pricing?
+  - AWS Shield Advanced offers protection against higher fees that could result from a DDoS attack
+- Which of the following statements is correct regarding the AWS Elastic File System (EFS) storage service?
+  - EC2 instances can access files on an EFS file system across many Availability Zones, Regions and VPCs
+- An IT company would like to move its IT resources (including any data and applications) from an AWS Region in the US to another AWS Region in Europe. Which of the following represents the correct solution for this use-case?
+  - The company should just start creating new resources in the destination AWS Region and then migrate the relevant data and applications into this new AWS Region
+- Which AWS service protects your AWS account by monitoring malicious activity and detecting threats?
+  - GuardDuty
+- Which AWS Route 53 routing policy would you use when you want to route your traffic in an active-passive configuration?
+  - Failover routing policy
+- Data encryption is automatically enabled for which of the following AWS services? (Select two)?
+  - S3 Glacier, Storage Gateway
+- An AWS user is trying to launch an EC2 instance in a given region. What is the region-specific constraint that the Amazon Machine Image (AMI) must meet so that it can be used for this EC2 instance?
+  - You must use an AMI from the same region as that of the EC2 instance. The region of the AMI has no bearing on the performance of the EC2 instance
+- Which budget types can be created under AWS Budgets (Select three)?
+  - Cost budget, Usage budget, Reservation budget 
+- A customer is running a comparative study of pricing models of Amazon EFS and Amazon EBS that are used with the Amazon EC2 instances that host the application. Which of the following statements are correct regarding this use-case? (Select two)
+  - You will pay a fee each time you read from or write data stored on the EFS - Infrequent Access storage class
+  - Amazon EBS Snapshots are stored incrementally, which means you are billed only for the changed blocks stored
+- Which AWS Support plan guarantees a case response time of 15 minutes when Business Critical systems are down?
+  - Enterprise
+- Which of the following statements are CORRECT regarding Security Groups and Network Access Control Lists (NACLs)? (Select two)
+  - A Security Group is stateful, that is, it automatically allows the return traffic
+  - A NACL contains a numbered list of rules and evaluates these rules in the increasing order while deciding whether to allow the traffic
+- An e-commerce company uses AWS Cloud and would like to receive separate invoices for development and production environments. As a Cloud Practioner, which of the following solutions would you recommend for this use-case?
+  - Create separate AWS accounts for development and production environments to receive separate invoices
+- Which of the following statements are CORRECT about the AWS Auto Scaling group? (Select two)
+  - Auto Scaling group scales out and adds more number of EC2 instances to match an increase in demand
+  - Auto Scaling group scales in and reduces the number of EC2 instances to match a decrease in demand
+- An IT company is on a cost-optimization spree and wants to identify all EC2 instances that are under-utilized. Which AWS services can be used off-the-shelf to address this use-case without needing any manual configurations? (Select two)
+  - Trusted Advisor, Cost Explore (no CloudWatch)
+- According to the AWS Shared Responsibility Model, which of the following are responsibilities of the customer (select 2)?
+  - Enabling data encryption of data stored in S3 buckets
+  - Operating systems patches and updates of an EC2 Instance
+- Which feature of AWS Cloud offers the ability to innovate faster and rapidly develop, test and launch software applications
+  - Agility
+- A development team is looking out for a forum where the most frequent questions and requests from AWS customers are listed along with AWS provided solutions.
+  - AWS Knowledge Center
+- Which of the following statements are true about Cost Allocation Tags in AWS Billing? (Select two)
+  - For each resource, each tag key must be unique, and each tag key can have only one value
+  - You must activate both AWS generated tags and user-defined tags separately before they can appear in Cost Explorer or on a cost allocation report
+- Which AWS services support High Availability by default? (Select two)
+  - EFS, DynamoDB
+- 
