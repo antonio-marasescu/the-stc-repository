@@ -3,7 +3,7 @@
 ## Summary 
 
 - **VPC**: Virtual Private Cloud
-- **Subnets**:Tied to an AZ, network partition of the VPC
+- **Subnets**: Tied to an AZ, network partition of the VPC
 - **Internet Gateway**: at the VPC level, provide Internet Access
 - **NAT Gateway / Instances**: give internet access to private subnets
 - **NACL**: Stateless, subnet rules for inbound and outbound
@@ -19,8 +19,8 @@
 
 ## VPC
 
-**VPC** = Virtual Private Cloud: private network to deploy your regional resources
-**Subnets** = allow you to partition your network inside your vpc (availability zone resource)
+**VPC** = Virtual Private Cloud: private network to deploy your regional resources, spans all Availability Zones in a Region
+**Subnets** = allow you to partition your network inside your vpc, tied to one specific Availability Zone (availability zone resource)
 - A public subnet is accesible from the internet
 - A private subnet is not accesible from the internet
 - To define access to the internet and between subnets we use **Route Tables**
