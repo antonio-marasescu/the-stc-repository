@@ -77,4 +77,3 @@
   - AWS Service Quotas, AWS Trusted Advisor
 - An organization has a complex IT architecture involving a lot of system dependencies and it wants to track the history of changes to each resource. Which AWS service will help the organization track the history of configuration changes for all the resources?
   - AWS Config
-- 
