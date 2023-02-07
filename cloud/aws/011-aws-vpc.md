@@ -6,8 +6,8 @@
 - **Subnets**: Tied to an AZ, network partition of the VPC
 - **Internet Gateway**: at the VPC level, provide Internet Access
 - **NAT Gateway / Instances**: give internet access to private subnets
-- **NACL**: Stateless, subnet rules for inbound and outbound
-- **Security Groups**: Stateful, operate at the EC2 instance level or ENI
+- **NACL**: Stateless, subnet rules for inbound and outbound, operate as a firewall at subnet level
+- **Security Groups**: Stateful, operates at the EC2 instance level or ENI
 - **VPC Peering**: Connect two VPC with non overlapping IP ranges, nontransitive
 - **VPC Endpoints**: Provide private access to AWS Services within VPC
 - **PrivateLink**: Privately connect to a service in a 3rd party VPC
