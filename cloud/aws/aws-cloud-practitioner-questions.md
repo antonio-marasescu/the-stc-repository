@@ -77,3 +77,25 @@
   - AWS Service Quotas, AWS Trusted Advisor
 - An organization has a complex IT architecture involving a lot of system dependencies and it wants to track the history of changes to each resource. Which AWS service will help the organization track the history of configuration changes for all the resources?
   - AWS Config
+- Which of the following AWS services support reservations to optimize costs? (Select three)
+  - EC2 Instance, DynamoDB, RDS
+- Compared to the On-demand prices, what is the highest possible discount offered for spot instances?
+  - 90
+- Which of the following statements are CORRECT regarding the Availability Zone (AZ) specific characteristics of EBS and EFS storage types?
+  - EBS volume can be attached to a single instance in the same Availability Zone whereas EFS file system can be mounted on instances across multiple Availability Zones
+- Which of the following AWS services has encryption enabled by default?
+  - CloudTrail, EFS
+- Which of the following are correct statements regarding the AWS Global Infrastructure? (Select two)
+  - Each AWS Region consists of a minimum of three Availability Zones
+  - Each Availability Zone (AZ) consists of one or more discrete data centers
+- Which of the following is a benefit of using AWS managed services such as Amazon RDS?
+  - The performance of AWS managed RDS instance is better than a customer-managed database instance
+- Which AWS Support plan provides architectural guidance contextual to your specific use-cases?
+  - Business
+- Which of the following AWS Support plans provide access to guidance, configuration, and troubleshooting of AWS interoperability with third-party software? (Select two)
+  - Enterprise, Business
+- Which of the following AWS Support plans provides access to Infrastructure Event Management for an additional fee?
+  - Business
+- Which of the following is CORRECT regarding removing an AWS account from AWS Organizations?
+  - The AWS account must be able to operate as a standalone account. Only then it can be removed from AWS organizations
+
