@@ -98,4 +98,38 @@
   - Business
 - Which of the following is CORRECT regarding removing an AWS account from AWS Organizations?
   - The AWS account must be able to operate as a standalone account. Only then it can be removed from AWS organizations
-
+- Bob and Susan each have an AWS account in AWS Organizations. Susan has five Reserved Instances (RIs) of the same type and Bob has none. During one particular hour, Susan uses three instances and Bob uses six for a total of nine instances on the organization's consolidated bill.
+  - Bob receives the cost-benefit from Susan's Reserved Instances only if he launches his instances in the same Availability Zone where Susan purchased her Reserved Instances
+  - AWS bills five instances as Reserved Instances, and the remaining four instances as regular instances 
+- Which of the following are benefits of the AWS Web Application Firewall (WAF)? (Select two)
+  - WAF can block all requests except the ones that you allow
+  - WAF can check for the presence of SQL code that is likely to be malicious (known as SQL injection)
+- An e-commerce company has migrated its IT infrastructure from the on-premises data center to AWS Cloud. Which of the following costs is the company responsible for?
+  - Application Software License Costs
+- Which of the following is the MOST cost-effective EC2 instance purchasing option for short-term, spiky and critical workloads on AWS Cloud?
+  - On-Demand Instance
+- A social media analytics company wants to migrate to a serverless stack on AWS. Which of the following scenarios can be handled by AWS Lambda? (Select two)
+  - Lambda can be used to execute code in response to events such as updates to DynamoDB tables
+  - Lambda can be used for preprocessing of data before it is stored in Amazon S3 buckets
+- Which of the following statements are CORRECT regarding AWS Global Accelerator? (Select two)
+  - Global Accelerator is a good fit for non-HTTP use cases 
+  - Global Accelerator provides static IP addresses that act as a fixed entry point to your applications
+- AWS Shield Advanced provides expanded DDoS attack protection for web applications running on which of the following resources? (Select two)
+  - Elastic Compute Cloud
+  - CloudFront
+- As per the Shared Responsibility Model, Security and Compliance is a shared responsibility between AWS and the customer. Which of the following security services falls under the purview of AWS under the Shared Responsibility Model?
+  - Shield Standard
+- Which of the following is correct regarding the AWS RDS service?
+  - You can use Read Replicas for both improved read performance as well as Disaster Recovery
+- Which AWS entity enables you to privately connect your VPC to an Amazon SQS queue?
+  - VPC Interface Endpoint
+- Which AWS services can be used together to send alerts whenever the AWS account root user signs in? (Select two)
+  - CloudWatch, SNS
+- Which of the following AWS storage services can be directly used with on-premises systems?
+  - EFS
+- AWS Marketplace facilitates which of the following use-cases? (Select two)
+  - AWS customer can buy software that has been bundled into customized AMIs by the AWS Marketplace sellers
+  - Sell Software as a Service (SaaS) solutions to AWS customers
+- Which of the following describes an Availability Zone in the AWS Cloud?
+  - One or more data centers in the same location
+- 
