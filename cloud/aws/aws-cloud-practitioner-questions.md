@@ -57,4 +57,24 @@
   - You must activate both AWS generated tags and user-defined tags separately before they can appear in Cost Explorer or on a cost allocation report
 - Which AWS services support High Availability by default? (Select two)
   - EFS, DynamoDB
+- A customer has created a VPC and a subnet within AWS Cloud. Which of the following statements is correct?
+  - A VPC spans all of the Availability Zones in the Region whereas a subnet spans only one Availability Zone in the Region
+- As per the AWS shared responsibility model, which of the following is a responsibility of AWS from a security and compliance point of view?
+  - Edge Location Management
+- Which of the following statement is correct for a Security Group and a Network Access Control List?
+  - Security Group acts as a firewall at the instance level whereas Network Access Control List acts as a firewall at the subnet level
+- Which of the following is correct about AWS "Developer" Support plan?
+  - Allows one contact to open unlimited cases
+- AWS Compute Optimizer delivers recommendations for which of the following AWS resources? (Select two)
+  - Amazon EC2 instances, Amazon EC2 Auto Scaling groups
+  - Amazon EBS volumes, AWS Lambda functions
+- Which of the following solutions can you use to connect your on-premises network with AWS Cloud (Select two).
+  - AWS Direct Connect
+  - AWS VPN
+- An IT company wants to run a log backup process every Monday at 2 AM. The usual runtime of the process is 5 minutes. As a Cloud Practitioner, which AWS services would you recommend to build a serverless solution for this use-case? (Select two)
+  - Lambda, CloudWatch
+- Which of the following AWS services are part of the AWS Foundation services for the Reliability pillar of the Well-Architected Framework in AWS Cloud? (Select two)
+  - AWS Service Quotas, AWS Trusted Advisor
+- An organization has a complex IT architecture involving a lot of system dependencies and it wants to track the history of changes to each resource. Which AWS service will help the organization track the history of configuration changes for all the resources?
+  - AWS Config
 - 
