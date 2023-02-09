@@ -132,4 +132,45 @@
   - Sell Software as a Service (SaaS) solutions to AWS customers
 - Which of the following describes an Availability Zone in the AWS Cloud?
   - One or more data centers in the same location
-- 
+- Which AWS service can inspect CloudFront distributions running on any HTTP web-server?
+  - WAF
+- Which AWS serverless service allows you to prepare data for analytics?
+  - AWS Glue
+- Which of the following criteria are used to charge for Elastic Block Store (EBS) volumes?
+  - Provisioned IOPS
+  - Volume Type
+- An engineering team is new to the AWS Cloud and it would like to launch a dev/test environment with low monthly pricing. Which AWS service can address this use-case?
+  - Amazon Lightsail
+- Which types of monitoring can be provided by Amazon CloudWatch? (Select TWO)
+  - Resource Utilization
+  - Application Performance
+- A Cloud Practitioner would like to get operational insights of its resources to quickly identify any issues that might impact applications using those resources. Which AWS service can help with this task?
+  - AWS Systems Manager
+- A company needs to use a secure online data transfer tool/service that can automate the ongoing transfers from on-premises systems into AWS while providing support for incremental data backups.
+  - DataSync
+- Which security control tool can be used to deny traffic from a specific IP address?
+  - NACL
+- A company would like to reserve EC2 compute capacity for three years to reduce costs. The company also plans to increase their workloads during this period. As a Cloud Practitioner, which EC2 Reserved Instance type would you recommend?
+  - Convertible Reserved Instances
+- According to the Well-Architected Framework, which of the following statements are recommendations in the Operational Excellence pillar? (Select two)
+  - Anticipate failure
+  - Make frequent, small, reversible changes
+- Which of the following billing timeframes is applied when running a Windows EC2 on-demand instance?
+  - Pay per second
+- Which AWS service can be used to send, store, and receive messages between software components at any volume to decouple application tiers?
+  - SQS (not SNS)
+- Which of the following IAM Security Tools allows you to review permissions granted to a user?
+  - IAM access advisor
+- Which of the following services are provided by Amazon Route 53? (Select TWO)
+  - Domain registration
+  - Health checks and monitoring
+- Which of the following AWS services can be used to generate, use, and manage encryption keys on the AWS Cloud?
+  - AWS CloudHSM
+- A company would like to separate cost for AWS services by the department for cost allocation. Which of the following is the simplest way to achieve this task?
+  - Create tags for each department
+- A company would like to move its infrastructure to AWS Cloud. Which of the following should be included in the Total Cost of Ownership (TCO) estimate? (Select TWO)
+  - Server administration
+  - Power/Cooling
+
+
+
