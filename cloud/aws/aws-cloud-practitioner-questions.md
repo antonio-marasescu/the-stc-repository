@@ -171,6 +171,60 @@
 - A company would like to move its infrastructure to AWS Cloud. Which of the following should be included in the Total Cost of Ownership (TCO) estimate? (Select TWO)
   - Server administration
   - Power/Cooling
-
-
-
+- Which free tool helps to review the state of your workloads and compares them to the latest AWS architectural best practices after you have answered a series of questions about your workload?
+  - AWS Well-Architected Tool
+- A healthcare company wants to implement a continuous replication based disaster recovery mechanism and provide fast, reliable recovery of physical, virtual, and cloud-based servers into AWS Cloud. Which of the following represents the best-fit solution for this use case?
+  - CloudEndure Disaster Recovery (available from the AWS Marketplace, continuously replicates server-hosted applications and server-hosted databases from any source into AWS using block-level replication of the underlying server)
+- A company has defined a baseline that mentions the number of AWS resources to be used for different stages of application testing. However, the company realized that employees are not adhering to the guidelines and provisioning additional resources via API calls, resulting in higher testing costs.
+  - AWS CloudTrail Insights (helps AWS users identify and respond to unusual activity associated with write API calls by continuously analyzing CloudTrail management events)
+- AWS Web Application Firewall (AWS WAF) can be deployed on which of the following services?
+  - Amazon CloudFront, Application Load Balancer, Amazon API Gateway, AWS AppSync
+- Which of the following statements are correct regarding the health monitoring and reporting capabilities supported by AWS Elastic Beanstalk? (Select two)
+  - The Elastic Beanstalk health monitoring can determine that the environment's Auto Scaling group is available and has a minimum of at least one instance
+  - With basic health reporting, the Elastic Beanstalk service does not publish any metrics to Amazon CloudWatch
+- Which of the following statements are correct regarding Amazon API Gateway? (Select two)
+  - API Gateway can call an AWS Lambda function to create the front door of a serverless application
+  - API Gateway can be configured to send data directly to Amazon Kinesis Data Stream
+- To meet the compliance norms, a consulting company is expected to store its data for three years. The company needs a tamper-proof technology/feature to keep the data protected and prevent any overwriting or data manipulation during the three-year duration.
+  - Amazon S3 Glacier Vault Lock
+- Which of the following statements are true about AWS Elastic Beanstalk? (Select two)
+  - With Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications
+  - There is no additional charge for Elastic Beanstalk. You pay only for the underlying AWS resources that your application consumes
+- Which member of the AWS Snow Family is used by the Edge computing applications for IoT use cases for facilitating the collection and processing of data to gain immediate insights and then transfer the data to AWS?
+  - AWS Snowcone
+- A team lead is reviewing the AWS services that can be used in the development workflow for his company. Which of the following statements are correct regarding the capabilities of these AWS services? (Select three)
+  - Each CodeStar project includes development tools, including AWS CodePipeline, AWS CodeCommit, AWS CodeBuild, and AWS CodeDeploy, that can be used on their own and with existing AWS applications
+  - CodePipeline uses Amazon CloudWatch Events to detect changes in CodeCommit repositories used as a source for a pipeline
+  - You can use AWS CodeStar and AWS Cloud9 to develop, build, and deploy a serverless web application 
+- Which of the following AWS services is delivered globally rather than regionally?
+  - Amazon WorkSpace
+- Which of the following statements are correct regarding the AWS Support Plans? (Select two)
+  - A designated Technical Account Manager is available only for Enterprise support plans
+  - Both Basic and Developer Support plans have access to 7 core Trusted Advisor checks 
+- As part of a flexible pricing model, AWS offers two types of Savings Plans. Which of the following are the Savings Plans from AWS?
+  - Compute Savings Plans, EC2 Instance Savings Plans
+- By default, which of the following events are logged by AWS CloudTrail?
+  - Management events
+- A supply chain company is looking for a database that provides a centrally verifiable history of all changes made to data residing in it. This functionality is critical for the product and needs to be available off-the-shelf without the need for any customizations.
+  - Amazon Quantum Ledger Database
+- AWS Support offers four support plans for its customers. Identify the features that are covered as part of the AWS Basic Support Plan? (Select two)
+  - Service health checks
+  - One-on-one responses to account and billing questions
+- Which of the following represents the correct scenario where an Auto Scaling group's (ASG) predictive scaling can be effectively used to maintain the required number of AWS resources?
+  - To manage a workload that exhibits recurring load patterns that are specific to the day of the week or the time of day
+- Which AWS service allows you to connect any number of IoT devices to the cloud without requiring you to provision or manage servers?
+  - AWS IoT Core
+- Which of the following statements are true about AWS Regions and Availability Zones (AZs)? (Select two)
+  - Each AWS Region consists of multiple, isolated, and physically separate AZ's within a geographic area
+  - All traffic between AZ’s is encrypted
+- A company is looking for ways to make its desktop applications available to the employees from browsers on their devices/laptops. Which AWS service will help achieve this requirement without having to procure servers or maintain infrastructure?
+  - Amazon AppStream 2.0
+- A gaming company needs compute and storage services close to edge locations in order to ensure ultra-low latency for end-users and devices that connect through mobile networks. Which AWS service is the best fit for this requirement?
+  - AWS Wavelength
+- Which of the following statements are correct regarding the AWS Control Tower and Service Control Policies? (Select two)
+  - Control Tower is an AWS native service providing a pre-defined set of blueprints and guardrails to help customers implement a landing zone for new AWS accounts
+  - Service control policies (SCPs) are a type of organization policy that you can use to manage permissions in your organization
+- AWS Support plans are designed to give the right mix of tools and access to expertise for successfully running a business using AWS.
+  - Business and Enterprise support plans
+- Which pillar of AWS Well-Architected Framework focuses on using IT and computing resources efficiently, while considering the right resource types and sizes based on workload requirements?
+  - Performance Efficiency Pillar
