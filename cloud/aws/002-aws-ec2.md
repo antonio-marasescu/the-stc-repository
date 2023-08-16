@@ -113,10 +113,25 @@ Represent a high-performance hardware disk which has the following properties:
 ### Elastic File System (EFS)
 
 - Is a managed NFS (network file system) which **can be mounted on 100s of EC2**.
-- Works with **Linux** EC2 instances in **multi-AZ**
+- Works with only **Linux** EC2 instances in **multi-AZ**, scale automatically and pay for use
 - Highly available, scalable, expensive, pay per use, no capacity planning
+- Use cases: content management, web serving, data sharing, wordpress
+- Uses NFSv4.1 protocol and you control access through a security group
 
-### EFS Infrequent Access (EFS-IA)
+#### Types 
+
+**Performance Mode** (set at EFS creation time)
+- General Purpose (default)
+- Max I/O
+**Througput Mode**
+- Bursting = 1 TB = 50MIB/S + burst of up to 100 MIB/s
+- Provisioned = set your throughput regardless of storage size (1GIB/s for 1 TB storage)
+- Elastic = automatically scales (good for unpredicable workloads)
+**Availability and durability**
+- Standard: multi-az
+- One-Zone: one az, great for dev, backup
+  
+#### EFS Infrequent Access (EFS-IA)
 
 - Storage class that is cost-optimized for files not accessed every days
 - EFS will automatically move your files to EFS-IA based on the last time they were accessed
