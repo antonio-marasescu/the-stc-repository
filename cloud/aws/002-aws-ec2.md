@@ -128,7 +128,7 @@ Represent a high-performance hardware disk which has the following properties:
 - Provisioned = set your throughput regardless of storage size (1GIB/s for 1 TB storage)
 - Elastic = automatically scales (good for unpredicable workloads)
 **Availability and durability**
-- Standard: multi-az
+- Regional (Standard): multi-az
 - One-Zone: one az, great for dev, backup
   
 #### EFS Infrequent Access (EFS-IA)
