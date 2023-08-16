@@ -58,12 +58,28 @@ It basically offers a server (IaS) with the options to customize:
 - They are bound to a specific availability zone
 - They can detached and attached to another EC2 quickly
 - Provisioned Capacity (size in GBs and IOPS)
+- Have a `delete-on-termination` attribute that controls behaviour on EC2 termination
 
 #### EBS Snapshots
 
 - Allows you to make a backup of your EBS volume at a point in time.
 - Not necessary to detach the volume to do snapshot but it is recommended
 - Can copy snapshots across AZ or Region
+
+##### Volume Types
+
+- gp2/gp3 (SSD): general purpose SSD for good balance (e.g.: VM workloads)
+- io1/io2 (SSD): high performance SSD for low-latency or high-throughput workloads (e.g.: database workloads)
+- st1 (HDD): low cost HDD volume for frequently accesed, throughput-internsive workloads (e.g.: Big Data, Data Warehouse, Log Processing workloads)
+- sc1 (HDD): lowest cost HDD volume designed for less frequently accessed workloads
+
+**NOTES**: Only gp2/gp3 and io1/io2 can be used as boot volumes
+
+##### EBS Snapshots Features
+
+- EBS Snapshot Archive = allows to move a snapshot to an `archive tier` (75% cheaper but takes between 24/72 hours to restore)
+- Recycle BIN for EBS Snapshots = allows to setup rules to retain deleted snapshot (in case of accidental deletion), you can specify retention (1 day to 1 year)
+- Fast Snapshot Restore (FSR) = force full initialization of snaphost to `no latency` on first use (is costly)
 
 ### Amazon Machine Image (AMI)
 
