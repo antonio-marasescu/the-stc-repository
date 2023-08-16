@@ -81,6 +81,12 @@ It basically offers a server (IaS) with the options to customize:
 - Recycle BIN for EBS Snapshots = allows to setup rules to retain deleted snapshot (in case of accidental deletion), you can specify retention (1 day to 1 year)
 - Fast Snapshot Restore (FSR) = force full initialization of snaphost to `no latency` on first use (is costly)
 
+##### EBS Multi-Attach - only for io1/io2 family
+
+- Allows to attach the same EBS volume to multiple EC2 in the same AZ (each instance gaining full read/write permissions)
+- Used for higher application availability in clustered linux applications or for application that must manager concurent write operations
+- Limitation of up to 16 EC2 instance at a time and must use a file system that is cluster-aware (not xfs, EXT4, etc)
+
 ### Amazon Machine Image (AMI)
 
 - represent a customization of an EC2 instance (with software pre-packaged => faster boot time)
