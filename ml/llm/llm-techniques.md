@@ -96,6 +96,6 @@ It has the following modules:
 - [Langchain for Python](https://python.langchain.com/docs/get_started/introduction)
 
 ### Useful Links
-- https://learn.deeplearning.ai/langchain/lesson/2/models,-prompts-and-parsers
-- https://youtu.be/lG7Uxts9SXs
-- https://youtu.be/aywZrzNaKjs
+- [LangChain for LLM Application Development Course](https://learn.deeplearning.ai/langchain/lesson/2/models,-prompts-and-parsers)
+- [LangChain explained in 13 minutes](https://youtu.be/aywZrzNaKjs)
+- [LangChain CrashCourse](https://youtu.be/lG7Uxts9SXs)
