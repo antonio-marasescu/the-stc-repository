@@ -74,7 +74,11 @@ Uses an **approximate near-neighbor search** ([ANN](https://towardsdatascience.c
 
 ## LangChain
 
-Combination of multiple LLM together.
+A framework used to combine multiple LLM together with external sources of computation and data.
+
+https://learn.deeplearning.ai/langchain/lesson/2/models,-prompts-and-parsers
+https://youtu.be/lG7Uxts9SXs
+https://youtu.be/aywZrzNaKjs
 
 ## RAG
 https://cookbook.openai.com/examples/fine-tuned_qa/ft_retrieval_augmented_generation_qdrant
