@@ -6,9 +6,9 @@
 Instead of relying on what the LLM knows, we offer context information. This is usually done by taking the user prompt and retrieving relevant information and injecting the information to the LLM.
 
 ### Useful Links
-- https://youtu.be/T-D1OfcDW1M
-- https://cookbook.openai.com/examples/fine-tuned_qa/ft_retrieval_augmented_generation_qdrant
-- https://arxiv.org/abs/2005.11401
+- [What is Retrieval-Augmented Generation (RAG)](https://youtu.be/T-D1OfcDW1M)
+- [OpenAI Cookbook: Retrievela Augemente Generation Qdrant](https://cookbook.openai.com/examples/fine-tuned_qa/ft_retrieval_augmented_generation_qdrant)
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
 
 ### Vector-Based Search
 
