@@ -12,6 +12,8 @@ Instead of relying on what the LLM knows, we offer context information. This is 
 
 ### Semantic Search
 
+### Keyword Search
+
 ### Vector-Based Search
 
 #### Algorithm for Implementation
