@@ -84,7 +84,16 @@ Uses an **approximate near-neighbor search** ([ANN](https://towardsdatascience.c
 
 ## LangChain
 
-A framework used to combine multiple LLM together with external sources of computation and data.
+A framework used to combine multiple LLM together with external sources of computation and data. Basically, it helps orchestrate a whole set of processes and comunication inside your llm used system.
+
+It has the following modules:
+- Components: llm wrappers, prompt templates, indexes for relevant information retrieval
+- Chains: assemble components to solve a specific task such as finding info in a book
+- Agents: allows LLMs to interact with it's environment (e.g.: Make API request for a specific action)
+
+### Implementations
+- [Langchain for JavaScript](https://github.com/langchain-ai/langchainjs) (with TypeScript first-class support)
+- [Langchain for Python](https://python.langchain.com/docs/get_started/introduction)
 
 ### Useful Links
 - https://learn.deeplearning.ai/langchain/lesson/2/models,-prompts-and-parsers
