@@ -6,6 +6,7 @@ Instead of relying on what the LLM knows, we offer context information. This is 
 
 ### Useful Links
 - [What is Retrieval-Augmented Generation (RAG)](https://youtu.be/T-D1OfcDW1M)
+- [Building Production-Ready RAG Applications](https://youtu.be/TRjq7t2Ms5I)
 - [OpenAI Cookbook: Retrievela Augemente Generation Qdrant](https://cookbook.openai.com/examples/fine-tuned_qa/ft_retrieval_augmented_generation_qdrant)
 - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
 
