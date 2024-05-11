@@ -20,6 +20,7 @@ It basically offers a server (IaS) with the options to customize:
 
 ## Security Groups
 
+-  Are Stateful
 - They control how traffic is allowed in/out of the EC2 instances, acting as a sort of "firewall"
 - The security groups only contain **ALLOW** rules
   - all inbound traffic is blocked by default

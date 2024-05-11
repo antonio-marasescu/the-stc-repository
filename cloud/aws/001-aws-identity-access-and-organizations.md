@@ -23,16 +23,24 @@ A Policy is structure in the following way:
     - Resource: list of resources to which the actions are applied to.
     - Condition: conditions for when this policy is in effect (optional).
 
+### 1.1.1 Policy Variables
+
+Instead of creating individual policies for each user, you can use policy variables and create a single policy that applies to multiple users (a group policy). Policy variables act as placeholders. When you make a request to AWS, the placeholder is replaced by a value from the request when the policy is evaluated
 ## 1.2. Roles
 
 Allow services from AWS to perform actions on your behalf by granting permissions with IAM Roles.
 
-## 1.3. Security Tools
+## 1.3. Trust Policies
+
+Trust policies define which principal entities (accounts, users, roles, and federated users) can assume the role. An IAM role is both an identity and a resource that supports resource-based policies. For this reason, you must attach both a trust policy and an identity-based policy to an IAM role. The IAM service supports only one type of resource-based policy called a role trust policy, which is attached to an IAM role.
+## 1.4. Security Tools
 
 1. IAM Credentials Report: list all your account's users and the status of their various credentials
-2. IAM Access Advisor: show service permissions granted to a user and when those services were last accessed.
+2. IAM Access Analyzer: simplifies inspecting unused access to guide you toward least privilege. Security teams can use IAM Access Analyzer to gain visibility into unused access across their AWS organization and automate how they rightsize permissions. When the unused access analyzer is enabled, IAM Access Analyzer continuously analyzes your accounts to identify unused access and creates a centralized dashboard with findings. The findings highlight unused roles, unused access keys for IAM users, and unused passwords for IAM users. For active IAM roles and users, the findings provide visibility into unused services and actions.
 
-## 1.4. Best Practices
+Incorrect options:
+
+## 1.5. Best Practices
 
 - Don't use root account except for aws account setup.
 - One physical user = one AWS user
@@ -44,7 +52,7 @@ Allow services from AWS to perform actions on your behalf by granting permission
 - Never share IAM users or access keys
 
 
-## 1.5. Shared Responsibility Model for IAM
+## 1.6. Shared Responsibility Model for IAM
 
 AWS is responsible for:
 - Infrastructure (global network security)
@@ -113,7 +121,6 @@ Therefore you can do the following to better manage your different accounts:
 
 #### Service Control Policies (SCP)
 
-
 - Allows you to whitelist or blacklist IAM actions, it is applied at the Organizational Unit or account level, but it is not applied to the master account.
 - It itself is applied to all users and roles of the account (including Root), but it is not applied to service-linked roles (they enable other aws services to integrate with aws organizations).
 - Must have an explicit Allow (does not allow anything by default)
@@ -131,7 +138,13 @@ Therefore you can do the following to better manage your different accounts:
                     - Account C
 ```
 
+#### Access Control List (ACL)
 
+Access control lists (ACLs) are service policies that allow you to control which principals in another account can access a resource. ACLs cannot be used to control access for a principal within the same account. Amazon S3, AWS WAF, and Amazon VPC are examples of services that support ACLs
+
+#### Permissions Boundary
+
+AWS supports permissions boundaries for IAM entities (users or roles). A permissions boundary is an advanced feature for using a managed policy to set the maximum permissions that an identity-based policy can grant to an IAM entity. An entity's permissions boundary allows it to perform only the actions that are allowed by both its identity-based policies and its permissions boundaries.
 #### Consolidated Billing
 
 When enabled it provides you with:

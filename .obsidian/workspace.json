@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "58a4ae96cef66fe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9f27ccc37b6d3ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1e5e0bd280ec529",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "87203f88ddf3cb39",
+    "type": "split",
+    "children": [
+      {
+        "id": "d401cff8d8f404d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6543f729efebfab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9e4ebaefc119744a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cbb5d67d45a78eeb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 357.5
+  },
+  "right": {
+    "id": "0f8cb03ab9648292",
+    "type": "split",
+    "children": [
+      {
+        "id": "88039e884cde4465",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15da3c729518e747",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7e2dd2537956852f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5aaa13ec80bb6fa3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "51c4a61f0523bfc0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e1e5e0bd280ec529",
+  "lastOpenFiles": [
+    "cloud/aws/certifications/aws-developer-associate-questions.md",
+    "cloud/aws/017-aws-route-53.md",
+    "cloud/aws/016-aws-architecting-and-ecosystem.md",
+    "cloud/aws/certifications/aws-cloud-practitioner-questions.md",
+    "cloud/aws/011-aws-vpc.md",
+    "cloud/aws/002-aws-ec2.md",
+    "cloud/aws/007-aws-infrastructure-management.md",
+    "cloud/aws/012-aws-security.md",
+    "cloud/aws/001-aws-identity-access-and-organizations.md",
+    "cloud/aws/003-aws-elb-asg.md",
+    "cloud/aws/000-aws.md",
+    "Untitled.canvas",
+    "cloud/aws/004-aws-s3.md",
+    "cloud/aws/015-aws-cognito.md",
+    "cloud/aws/009-aws-cloud-integration.md",
+    "cloud/aws/006-aws-compute.md",
+    "cloud/aws/certifications"
+  ]
+}
