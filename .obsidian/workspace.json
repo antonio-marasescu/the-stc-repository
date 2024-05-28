@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "b9f27ccc37b6d3ea",
+        "id": "b2fe99e4f5987920",
         "type": "tabs",
         "children": [
           {
-            "id": "e1e5e0bd280ec529",
+            "id": "aec47dd843fbb023",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 313.5
   },
   "right": {
     "id": "0f8cb03ab9648292",
@@ -135,27 +135,41 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1e5e0bd280ec529",
+  "active": "aec47dd843fbb023",
   "lastOpenFiles": [
-    "cloud/aws/certifications/aws-developer-associate-questions.md",
-    "cloud/aws/017-aws-route-53.md",
-    "cloud/aws/016-aws-architecting-and-ecosystem.md",
+    "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
+    "cloud/aws/associate-developer/000-exam-questions.md",
+    "cloud/aws/associate-developer/029-aws-code-services.md",
+    "cloud/aws/associate-developer/019-apigateway.md",
+    "cloud/aws/associate-developer/020-dynamodb.md",
+    "cloud/aws/associate-developer/021-sam.md",
+    "cloud/aws/associate-developer/024-app-sync.md",
+    "cloud/aws/associate-developer/038-xray.md",
+    "cloud/aws/associate-developer/023-cognito.md",
+    "cloud/aws/associate-developer/032-kms.md",
+    "cloud/aws/associate-developer/027-kinesis.md",
+    "cloud/aws/associate-developer/018-aws-lambda.md",
+    "cloud/aws/associate-developer/025-sqs.md",
+    "cloud/aws/associate-developer/026-sns.md",
+    "cloud/aws/associate-developer/mindmap",
+    "cloud/aws/associate-developer/002-compute-storage.md",
+    "cloud/aws/associate-developer/001-asg.md",
+    "cloud/aws/associate-developer/034-aws-opensearch.md",
+    "cloud/aws/associate-developer/035-aurora-database.md",
+    "cloud/aws/associate-developer/036-fargate-compute.md",
+    "cloud/aws/associate-developer/037-ecs.md",
+    "cloud/aws/associate-developer/033-aws-athena.md",
+    "cloud/aws/associate-developer/031-cloudwatch.md",
+    "cloud/aws/associate-developer/028-elastic-beanstalk.md",
+    "cloud/aws/associate-developer/022-step-functions.md",
+    "cloud/aws/associate-developer/030-cloudformation.md",
     "cloud/aws/certifications/aws-cloud-practitioner-questions.md",
-    "cloud/aws/011-aws-vpc.md",
-    "cloud/aws/002-aws-ec2.md",
-    "cloud/aws/007-aws-infrastructure-management.md",
-    "cloud/aws/012-aws-security.md",
-    "cloud/aws/001-aws-identity-access-and-organizations.md",
-    "cloud/aws/003-aws-elb-asg.md",
-    "cloud/aws/000-aws.md",
+    "cloud/aws/associate-developer",
     "Untitled.canvas",
-    "cloud/aws/004-aws-s3.md",
-    "cloud/aws/015-aws-cognito.md",
-    "cloud/aws/009-aws-cloud-integration.md",
-    "cloud/aws/006-aws-compute.md",
     "cloud/aws/certifications"
   ]
 }
