@@ -4,15 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "b2fe99e4f5987920",
+        "id": "fd9f43c0e48ade97",
         "type": "tabs",
         "children": [
           {
-            "id": "aec47dd843fbb023",
+            "id": "715c854a06eddfa6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "cloud/aws/associate-developer/000-exam-questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adde9b86a016c285",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
+                "viewState": {
+                  "x": 4794.02135192096,
+                  "y": 2946.389719246359,
+                  "zoom": -0.14860568471353364
+                }
+              }
             }
           }
         ]
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cloud/aws/associate-developer/000-exam-questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cloud/aws/associate-developer/000-exam-questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "cloud/aws/associate-developer/000-exam-questions.md"
+              }
             }
           }
         ]
@@ -139,10 +162,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aec47dd843fbb023",
+  "active": "715c854a06eddfa6",
   "lastOpenFiles": [
+    "Pasted image 20240528225426.png",
     "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
     "cloud/aws/associate-developer/000-exam-questions.md",
+    "cloud/aws/certifications/aws-developer-associate-questions.md",
+    "cloud/aws/associate-developer/037-ecs.md",
+    "cloud/aws/associate-developer/033-aws-athena.md",
+    "cloud/aws/associate-developer/028-elastic-beanstalk.md",
+    "cloud/aws/associate-developer/030-cloudformation.md",
     "cloud/aws/associate-developer/029-aws-code-services.md",
     "cloud/aws/associate-developer/019-apigateway.md",
     "cloud/aws/associate-developer/020-dynamodb.md",
@@ -161,13 +190,8 @@
     "cloud/aws/associate-developer/034-aws-opensearch.md",
     "cloud/aws/associate-developer/035-aurora-database.md",
     "cloud/aws/associate-developer/036-fargate-compute.md",
-    "cloud/aws/associate-developer/037-ecs.md",
-    "cloud/aws/associate-developer/033-aws-athena.md",
     "cloud/aws/associate-developer/031-cloudwatch.md",
-    "cloud/aws/associate-developer/028-elastic-beanstalk.md",
     "cloud/aws/associate-developer/022-step-functions.md",
-    "cloud/aws/associate-developer/030-cloudformation.md",
-    "cloud/aws/certifications/aws-cloud-practitioner-questions.md",
     "cloud/aws/associate-developer",
     "Untitled.canvas",
     "cloud/aws/certifications"

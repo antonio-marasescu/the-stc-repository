@@ -38,6 +38,16 @@
 - Stacks are identified by a name
 - Deleting a stack deletes every single artifact that was created by CloudFormation.
 
+## Key Concepts
+
+|             |                                                                                                                                                                                   |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Templates   | The JSON or YAML text file that contains the instructions for building out the AWS environment                                                                                    |
+| Stacks      | The entire environment described by the template and created, updated, and deleted as a single unit                                                                               |
+| StackSets   | AWS CloudFormation StackSets extends the functionality of stacks by enabling you to create, update, or delete stacks across multiple accounts and regions with a single operation |
+| Change Sets | A summary of proposed changes to your stack that will allow you to see how those changes might impact your existing resources before implementing them                            |
+
+
 ## Deploying CloudFormation templates
 
 - Manual way:
