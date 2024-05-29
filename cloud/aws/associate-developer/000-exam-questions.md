@@ -1148,3 +1148,217 @@ A. Use the .wait ForTaskToken option in the Lambda function task state. Pass th
 
 #### Question 63
 
+A developer must use AWS X-Ray to monitor an application that is running on an Amazon EC2 instance. The developer has prepared the application by using the  
+X-Ray SDK.  
+What should the developer do to perform the monitoring?
+
+B. Install the X-Ray daemon. Assign an IAM role to the EC2 instance with a policy that allows writes to X-Ray.
+
+#### Question 64
+
+A developer is designing a full-stack serverless application. Files for the website are stored in an Amazon S3 bucket. AWS Lambda functions that use Amazon  
+API Gateway endpoints return results from an Amazon DynamoDB table.  
+The developer must create a solution that securely provides registration and authentication for the application while minimizing the amount of configuration.  
+Which solution meets these requirements?
+
+A. Create an Amazon Cognito user pool and an app client. Configure the app client to use the user pool and provide the hosted web UI provided for sign-up and sign-in.
+
+#### Question 65 (marked)
+
+A company has an application that writes files to an Amazon S3 bucket. Whenever there is a new file, an S3 notification event invokes an AWS Lambda function to process the file. The Lambda function code works as expected. However, when a developer checks the Lambda function logs, the developer finds that multiple invocations occur for every file.  
+What is causing the duplicate entries?
+
+C. Amazon S3 is delivering the same event multiple times.
+#### Question 66
+
+A developer needs to use the AWS CLI on an on-premises development server temporarily to access AWS services while performing maintenance. The developer needs to authenticate to AWS with their identity for several hours.  
+What is the MOST secure way to call AWS CLI commands with the developer's IAM identity?
+
+D. Run the get-session-token CLI command with the developer's IAM user. Use the returned credentials to call the CLI
+
+#### Question 67
+
+An AWS Lambda function accesses two Amazon DynamoDB tables. A developer wants to improve the performance of the Lambda function by identifying bottlenecks in the function.  
+How can the developer inspect the timing of the DynamoDB API calls?
+
+D. Enable AWS X-Ray tracing for the function. View the traces from the X-Ray service.
+
+#### Question 68
+
+A developer deployed an application to an Amazon EC2 instance. The application needs to know the public IPv4 address of the instance.  
+How can the application find this information?
+
+A. Query the instance metadata from http://169.254.169.254/latest/meta-data/
+
+#### Question 69
+
+A developer is designing an AWS Lambda function to perform a maintenance activity. The developer will use Amazon EventBridge (Amazon CloudWatch Events) to invoke the function on an hourly schedule. The developer wants the function to log information at different levels of detail according to the value of a log level variable. The developer must design the function so that the log level can be set without requiring a change to the function code.  
+Which solution will meet these requirements?
+
+B. Set the log level in a Lambda environment variable
+
+#### Question 70
+
+A developer is creating a serverless application that uses an AWS Lambda function The developer will use AWS CloudFormation to deploy the application The application will write logs to Amazon CloudWatch Logs. The developer has created a log group in a CloudFormation template for the application to use. The developer needs to modify the CloudFormation template to make the name of the log group available to the application at runtime.  
+Which solution will meet this requirement?
+
+D. Pass the log group's Amazon Resource Name (ARN) as an environment variable to the Lambda function.
+
+#### Question 71
+
+A company is running an application on Amazon Elastic Container Service (Amazon ECS). When the company deploys a new version of the application, the company initially needs to expose 10% of live traffic to the new version. After a period of time, the company needs to immediately route all the remaining live traffic to the new version.  
+Which ECS deployment should the company use to meet these requirements?
+
+B. Blue/green with canary
+
+#### Question 72
+
+A microservices application is deployed across multiple containers in Amazon Elastic Container Service (Amazon ECS). To improve performance, a developer wants to capture trace information between the microservices and visualize the microservices architecture.  
+Which solution will meet these requirements?
+
+A. Build the container from the amazon/aws-xray-daemon base image. Use the AWS X-Ray SDK to instrument the application.
+
+#### Question 73
+
+A company is planning to use AWS CodeDeploy to deploy an application to Amazon Elastic Container Service (Amazon ECS). During the deployment of a new version of the application, the company initially must expose only 10% of live traffic to the new version of the deployed application. Then, after 15 minutes elapse, the company must route all the remaining live traffic to the new version of the deployed application.  
+Which CodeDeploy predefined configuration will meet these requirements?
+
+A. CodeDeployDefault.ECSCanary10Percent15Minutes
+
+#### Question 74
+
+A developer notices timeouts from the AWS CLI when the developer runs list commands.  
+What should the developer do to avoid these timeouts?
+
+A. Use the --page-size parameter to request a smaller number of items.
+
+#### Question 75 (marked)
+
+A company has moved a legacy on-premises application to AWS by performing a lift and shift. The application exposes a REST API that can be used to retrieve billing information. The application is running on a single Amazon EC2 instance. The application code cannot support concurrent invocations. Many clients access the API, and the company adds new clients all the time.  
+A developer is concerned that the application might become overwhelmed by too many requests. The developer needs to limit the number of requests to the API for all current and future clients. The developer must not change the API, the application, or the client code.  
+What should the developer do to meet these requirements?
+
+A. Place the API behind an Amazon API Gateway API. Set the server-side throttling limits.
+
+#### Question 76 (marked)
+
+An ecommerce company wants to redirect users to a country-specific website when they enter the example.com website. For example, the company wants to redirect United States users to example.com/us/ and wants to redirect French users to example.com/fr/. The web application is using Amazon CloudFront and an  
+Application Load Balancer with an Amazon Elastic Container Service (Amazon ECS) cluster. The application's domain name resolution is configured in an  
+Amazon Route 53 public hosted zone.  
+Which solution will meet these requirements with the LEAST operational effort?
+
+B. Create a CloudFront function to inspect the CloudFront-Viewer-Country header and return redirect responses to different URLs based on user location.
+
+Note: Route53 cannot route by url
+
+
+#### Question 77
+
+A developer deploys an AWS Lambda function that runs each time a new Amazon S3 bucket is created. The Lambda function is supposed to attach an S3  
+Lifecycle policy to each new S3 bucket. The developer discovers that newly created S3 buckets have no S3 Lifecycle policy attached.  
+Which AWS service should the developer use to find a possible error in the Lambda function?
+
+D. Amazon CloudWatch
+
+#### Question 78
+
+A developer has created a web API that uses Amazon Elastic Container Service (Amazon ECS) and an Application Load Balancer (ALB). An Amazon CloudFront distribution uses the API as an origin for web clients. The application has received millions of requests with a JSON Web Token (JWT) that is not valid in the authorization header. The developer has scaled out the application to handle the unauthenticated requests.  
+What should the developer do to reduce the number of unauthenticated requests to the API?
+
+C. Create a CloudFront function for the distribution Use the crypto module in the function to validate the JWT.
+
+Note: Authorization header is not sufficient
+
+#### Question 79
+
+A developer is creating a mobile application that will not require users to log in.  
+What is the MOST efficient method to grant users access to AWS resources?
+
+D. Use Amazon Cognito to associate unauthenticated users with an IAM role that has limited access to resources.
+
+#### Question 80
+
+A developer has created on AWS Lambda function tool uses 15 MB of memory. When the developer runs the code natively on a laptop that has 4 cores, the function runs within 100 ms. When the developer deploys the code as a Lambda function with 128 MB of memory, the first run takes 3 seconds. Subsequent runs take more than 500 ms to finish.  
+The developer needs to improve the performance of the Lambda function so that the function runs consistently in less than 100 ms, excluding the initial startup time.  
+Which solution will meet this requirement?
+
+C. Increase the memory of the Lambda function
+
+#### Question 81
+
+A company is planning to use AWS CodeDeploy to deploy an application to AWS Lambda. During the deployment of a new version of the application, the company initially must expose only 10% of live traffic to the new version of the deployed application. Then, every 10 minutes, the company must route another  
+10% of live traffic to the new version of the deployed application until all live traffic is routed to the new version.  
+Which CodeDeploy predefined configuration will meet these requirements?
+
+C. CodeDeployDefault.LambdaLinear10PercentEvery10Minutes
+
+#### Question 82 (marked)
+
+A developer wants to use AWS Elastic Beanstalk to test a new version of on application in a test environment.  
+Which deployment method offers the FASTEST deployment?
+
+D. All at once
+
+#### Question 83
+
+A developer has built an application that inserts data into an Amazon DynamoDB table. The table is configured to use provisioned capacity. The application is deployed on a burstable nano Amazon EC2 Instance. The application logs show that the application has been failing because of a  
+ProvisionedThroughputExceedException error.  
+Which actions should the developer take to resolve this issue? (Choose two.)
+
+C. Reduce the frequency of requests to DynamoDB by implement ng exponential backoff.
+E. Change the capacity mode of the DynamoDB table from provisioned to on-demand.
+
+#### Question 84 (marked)
+
+A developer is deploying on application on Amazon EC2 instances that run in Account A. In certain cases, this application needs to read data from a private  
+Amazon S3 bucket in Account B. The developer must provide the application access to the S3 bucket without exposing the S3 bucket to anyone else.  
+Which combination of actions should the developer take to meet these requirements? (Choose two.)
+
+B. Update the instance profile IAM role in Account A with S3 read permissions.
+D. Configure the bucket policy in Account B to grant permissions to the instance profile role.
+
+#### Question 85
+
+A developer at a company recently created a serverless application to process and show data from business reports. The application's user interface (UI) allows users to select and start processing the flies. The UI displays a message when the result is available to view. The application uses AWS Step Functions with AWS  
+Lambda functions to process the files. The developer used Amazon API Gateway and Lambda functions to create an API to support the UI.  
+The company's UI team reports that the request to process a file s often returning timeout errors because of the size or complexity of the files. The UI team wants the API to provide an immediate response so that the UI can display a message while the files are being processed. The backend process that is invoked by the  
+API needs to send an email message when the report processing is complete.  
+What should the developer do to configure the API to meet these requirements?
+
+A. Change the API Gateway route to add an X-Amz-Invocation-Type header with a static value of 'Event' in the integration request. Deploy the API Gateway stage to apply the changes.
+
+#### Question 86
+
+An ecommerce application is running behind an Application Load Balancer. A developer observes some unexpected load on the application during non-peak hours. The developer wants to analyze patterns for the client IP addresses that use the application.  
+Which HTTP header should the developer use for this analysis?
+
+C. The X-Forwarded-For header
+
+#### Question 87
+
+A developer needs to create an application that supports Security Assertion Markup Language (SAML) and authentication with social media providers. It must also allow access to AWS services, such as Amazon DynamoDB.  
+Which AWS service or feature will meet these requirements with the LEAST amount of additional coding?
+
+B. Amazon Cognito identity pools
+
+#### Question 88
+
+A developer is designing a serverless application for an ecommerce website. An Amazon API Gateway API exposes AWS Lambda functions for billing, payment, and user operations. The website features shopping carts for the users. The shopping carts must be stored for extended periods of time and will be retrieved frequently by the front-end application.  
+The load on the application will vary significantly based on the time of day and the promotional sales that are offered on the website. The application must be able to scale automatically to meet these changing demands.  
+Which solution will meet these requirements?
+
+D. Store the data objects in Amazon DynamoDB tables. Cache the data objects by using DynamoDB Accelerator (DAX).
+
+#### Question 89
+
+A company is migrating its on-premises database to Amazon RDS for MySQL. The company has read-heavy workloads, and wants to make sure it re-factors its code to achieve optimum read performance for its queries.  
+How can this objective be met?
+
+C. Add a connection string to use an RDS read replica for read queries.
+
+#### Question 90
+
+An application running on Amazon EC2 opens connections to an Amazon RDS SQL Server database. The developer does not want to store the user name and password for the database in the code. The developer would also like to automatically rotate the credentials.  
+What is the MOST secure way to store and access the database credentials?
+
+B. Use AWS Secrets Manager to store the credentials. Retrieve the credentials from Secrets Manager as needed.

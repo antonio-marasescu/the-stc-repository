@@ -27,14 +27,15 @@
               "state": {
                 "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
                 "viewState": {
-                  "x": 2503.1846029759954,
-                  "y": 6251.211159764082,
-                  "zoom": -4
+                  "x": -3735.0283750788117,
+                  "y": 3515.756364607354,
+                  "zoom": -1
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cloud/aws/associate-developer/000-exam-questions.md",
+                "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cloud/aws/associate-developer/000-exam-questions.md",
+                "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cloud/aws/associate-developer/000-exam-questions.md"
+                "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas"
               }
             }
           }
@@ -162,10 +163,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "715c854a06eddfa6",
+  "active": "adde9b86a016c285",
   "lastOpenFiles": [
-    "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
     "cloud/aws/associate-developer/000-exam-questions.md",
+    "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
     "Pasted image 20240528225426.png",
     "cloud/aws/certifications/aws-developer-associate-questions.md",
     "cloud/aws/associate-developer/037-ecs.md",
