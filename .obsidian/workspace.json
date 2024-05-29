@@ -27,9 +27,9 @@
               "state": {
                 "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
                 "viewState": {
-                  "x": 4794.02135192096,
-                  "y": 2946.389719246359,
-                  "zoom": -0.14860568471353364
+                  "x": 2503.1846029759954,
+                  "y": 6251.211159764082,
+                  "zoom": -4
                 }
               }
             }
@@ -164,9 +164,9 @@
   },
   "active": "715c854a06eddfa6",
   "lastOpenFiles": [
-    "Pasted image 20240528225426.png",
     "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
     "cloud/aws/associate-developer/000-exam-questions.md",
+    "Pasted image 20240528225426.png",
     "cloud/aws/certifications/aws-developer-associate-questions.md",
     "cloud/aws/associate-developer/037-ecs.md",
     "cloud/aws/associate-developer/033-aws-athena.md",
