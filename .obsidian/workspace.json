@@ -13,29 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cloud/aws/associate-developer/000-exam-questions.md",
+                "file": "investing/01-etf.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "adde9b86a016c285",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
-                "viewState": {
-                  "x": -3735.0283750788117,
-                  "y": 3515.756364607354,
-                  "zoom": -1
-                }
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
+                "file": "investing/01-etf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
+                "file": "investing/01-etf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cloud/aws/associate-developer/associate-developer-mind-map.canvas"
+                "file": "investing/01-etf.md"
               }
             }
           }
@@ -163,9 +147,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "adde9b86a016c285",
+  "active": "715c854a06eddfa6",
   "lastOpenFiles": [
     "cloud/aws/associate-developer/000-exam-questions.md",
+    "investing/01-etf.md",
+    "languages/spanish/00-grammar.md",
+    "languages/spanish/01-lessons.md",
+    "investing",
+    "languages/spanish",
+    "languages",
     "cloud/aws/associate-developer/associate-developer-mind-map.canvas",
     "Pasted image 20240528225426.png",
     "cloud/aws/certifications/aws-developer-associate-questions.md",
@@ -191,8 +181,6 @@
     "cloud/aws/associate-developer/034-aws-opensearch.md",
     "cloud/aws/associate-developer/035-aurora-database.md",
     "cloud/aws/associate-developer/036-fargate-compute.md",
-    "cloud/aws/associate-developer/031-cloudwatch.md",
-    "cloud/aws/associate-developer/022-step-functions.md",
     "cloud/aws/associate-developer",
     "Untitled.canvas",
     "cloud/aws/certifications"
