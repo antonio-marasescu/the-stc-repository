@@ -155,6 +155,28 @@ Inverse ETFs are a type of exchange-traded fund designed to provide the **opposi
 5. How are dividends working for that ETF?
 	- Is is it Accumulating: the dividends are automatically reinvested (you don't **yet** have to pay taxes)
 	- Is is Distributing: you receive the dividends directly and you decide what to do with it (you **have** to pay taxes for them this year)
+6. Where is the location / country the ETF is registered
+	 - This has implication in the taxes you are going to pay
+	 - The most favorable ETF locations are:
+		 - Ireland (especially if the ETF has stocks in USA companies)
+		 - Luxemburg
+7. What is the Total Expense Ration ([TER](https://help.revolut.com/en-RO/help/wealth/stocks/getting-started-with-etf-s/what-is-a-total-expense-ratio-for-etfs/))?
+	- The total expense ratio is a measure of the total annual operating expenses of an ETF. It is expressed as a percentage of the ETFs assets and is deducted from the ETFs returns. Operating expenses may include administrative, legal fees and other costs associated with managing the ETF.
+	- You need to look at the ETF with the smaller TER
+	- For example, a TER of 0.20% means that, on average, you will pay the ETF manager 2 EURO per year for every 1,000 EUR invested in that ETF.
+8. What is the value of the Assets Under Management ([AUM](https://www.investopedia.com/terms/a/aum.asp#:~:text=Assets%20under%20management%20(AUM)%20is%20the%20total%20market%20value%20of,as%20a%20percentage%20of%20AUM.))
+	- AUM is the sum of the market value for all of the investments managed by a fund or family of funds, a venture capital firm, a brokerage company, or an individual registered as an investment advisor or portfolio manager.
+	- This influence the liquidity of the ETF:
+		- If an ETF has a large portfolio then it has many investors that buy and sell the ETF fund units.
+		- A more liquid ETF offers the advantage of smaller spreads. The spread is the difference between the selling price and the buying price, similar to what you see when you go to buy EURO at a currency exchange office.
+	- Another factor influenced by the value of the asset portfolio is the likelihood of an ETF closing. It is said that an international ETF needs to manage assets worth over 100 million EUR/USD/GBP to operate efficiently. This is why it is recommended to focus on such ETFs.
+9. Who is the administrator of the ETF
+	- In Europe, there are dozens of fund managers. Each of them can offer an ETF that replicates the same stock index. Therefore, after you have analyzed all the other 8 aspects presented earlier, if you have narrowed down your options to two identical funds, you might choose the one offered by the manager who inspires more confidence.
+### Where to find this information
+
+1.  On the ETF's presentation page
+2. In the Key Investor Information Document (KIID)
+3. In the ETF's issuance prospectus;
 ## Advantages and Disadvantages
 
 ### Advantages
@@ -236,3 +258,4 @@ For the year 2023, the applicable minimum gross wage is 3,000 RON/month. Thus, t
 - [ETF Academy: Information](https://www.justetf.com/en/academy/academy-overview.html)
 - [XTB: Live ETF List](https://www.xtb.com/ro/specificatii-instrumente#etf-uri-cu-detinere)
 - [Investing into ETF from A to Z](https://youtu.be/RdrN7JYTEvo)
+- [How to analyze an ETF](https://ovidiutarcu.ro/2021/11/03/cum-analizezi-un-etf/)
