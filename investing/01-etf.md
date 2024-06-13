@@ -253,7 +253,7 @@ For the year 2023, the applicable minimum gross wage is 3,000 RON/month. Thus, t
 
 - [XTB: Q&A Fiscal Modifications](https://xtb.scdn5.secure.raxcdn.com/file/0102/11/FAQ_venituri_din_investitii_26e13908b7.pdf)
 - [Romanian Taxes: How to complete declarations](https://www.youtube.com/watch?v=xXU-OM6SGB4)
-- [Complete Guide to Stock Exchange Investments]https://www.dividende.blog/finante-personale/ghid-complet-investitii-bursa
+- [Complete Guide to Stock Exchange Investments](https://www.dividende.blog/finante-personale/ghid-complet-investitii-bursa)
 - [XTB: Most popular ETF list](https://ro.xtb.com/hubfs/E-Book/Cele_mai_populare_etf-uri_la_XTB.pdf)
 - [ETF Academy: Information](https://www.justetf.com/en/academy/academy-overview.html)
 - [XTB: Live ETF List](https://www.xtb.com/ro/specificatii-instrumente#etf-uri-cu-detinere)
