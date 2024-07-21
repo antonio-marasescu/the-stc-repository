@@ -1,16 +1,19 @@
 # Portfolio
 
-## Summary
+## Allocation Summary
 
-
-| ETF                            | Percentage Portfolio (%) |
-|--------------------------------|--------------------------|
-| iShares Core MSCI World UCITS  | 50%                      |
-| iShares Core MSCI EM IMI UCITS | 50%                      |
+| ETF                                           | Percentage Portfolio (%) |
+|-----------------------------------------------|--------------------------|
+| iShares Core MSCI World UCITS (EUNL.DE)       | 60%                      |
+| iShares Core MSCI EM IMI UCITS (IS3N.DE)      | 30%                      |
+| iShares Automation & Robotics UCITS (2B76.DE) | 10%                      |
 
 ## iShares Core MSCI World UCITS
 
-The iShares Core MSCI World UCITS ETF (EUNL.DE) is an exchange-traded fund that aims to replicate the performance of the MSCI World Index. This index includes companies from developed countries and excludes stocks from emerging markets. The index members come from all economic sectors, with the information technology sector having the largest weighting, reflecting the growing importance of the tech sector to the global economy, particularly in developed countries.
+The iShares Core MSCI World UCITS ETF (EUNL.DE) is an exchange-traded fund that aims to replicate the performance of the
+MSCI World Index. This index includes companies from developed countries and excludes stocks from emerging markets. The
+index members come from all economic sectors, with the information technology sector having the largest weighting,
+reflecting the growing importance of the tech sector to the global economy, particularly in developed countries.
 
 ### Basics
 
@@ -29,7 +32,6 @@ The iShares Core MSCI World UCITS ETF (EUNL.DE) is an exchange-traded fund that 
 
 ### Top 10 Holdings
 
-
 | Holding               | Percentage (%) |
 |-----------------------|----------------|
 | Microsoft Corp.       | 4.49           |
@@ -44,11 +46,16 @@ The iShares Core MSCI World UCITS ETF (EUNL.DE) is an exchange-traded fund that 
 | JPMorgan Chase & Co.	 | 0.88           |
 
 ### Links
+
 - [JustETF Data](https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983#overview)
 
 ## iShares Core MSCI EM IMI UCITS
 
-The iShares Core MSCI EM IMI UCITS ETF (IS3N.DE) is an exchange-traded fund that aims to replicate the performance of the MSCI Emerging Markets IMI Index. This index tracks the performance of companies in emerging markets, with a strong weighting towards companies from Asian countries. Stocks from China, South Korea, Taiwan, and India make up over 70% of the fund's assets. The index includes stocks from all sectors, with technology and financial stocks having the largest weightings.
+The iShares Core MSCI EM IMI UCITS ETF (IS3N.DE) is an exchange-traded fund that aims to replicate the performance of
+the MSCI Emerging Markets IMI Index. This index tracks the performance of companies in emerging markets, with a strong
+weighting towards companies from Asian countries. Stocks from China, South Korea, Taiwan, and India make up over 70% of
+the fund's assets. The index includes stocks from all sectors, with technology and financial stocks having the largest
+weightings.
 
 ### Basics
 
@@ -67,7 +74,6 @@ The iShares Core MSCI EM IMI UCITS ETF (IS3N.DE) is an exchange-traded fund that
 
 ### Top 10 Holdings
 
-
 | Holding                                      | Percentage (%) |
 |----------------------------------------------|----------------|
 |
@@ -83,4 +89,45 @@ The iShares Core MSCI EM IMI UCITS ETF (IS3N.DE) is an exchange-traded fund that
 | China Construction Bank Corp.	               | 0.80           |
 
 ### Links
+
 - [JustETF Data](https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#overview)
+
+## iShares Automation & Robotics UCITS
+
+The iShares Automation & Robotics UCITS ETF (2B76.DE) seeks to track the iSTOXX® FactSet Automation & Robotics index. The iSTOXX® FactSet Automation & Robotics index tracks companies across the world that are developing technology in the fields of automation and robotics, across both developed and emerging markets.
+
+### Basics
+
+| Property                       | Value                                           |
+|--------------------------------|-------------------------------------------------|
+| Index                          | iSTOXX® FactSet Automation & Robotics           |
+| UCITS compliance	              | Yes                                             |
+| Investment focus               | Equity, World, Technology, Social/Environmental |
+| Replication                    | Physical (Optimized sampling)                   |
+| Fund currency                  | USD                                             |
+| Distribution policy            | Accumulating                                    |
+| Fund domicile                  | Ireland                                         |
+| Total expense ratio (TER)      | 0.40% p.a.                                      |
+| Assets Under Management (AUM)	 | 3,107m Euro                                     |
+| Administrator		                | 	State Street Fund Services (Ireland) Limited   |
+
+### Top 10 Holdings
+
+| Holding                       | Percentage (%) |
+|-------------------------------|----------------|
+|
+| NVIDIA Corp.                  | 3.78           |
+| Lasertec Corp.                | 2.31           |
+| MicroStrategy                 | 2.24           |
+| KLA Corp.                     | 2.15           |
+| Garmin                        | 2.02           |
+| ABB Ltd.                      | 1.89           |
+| AMD                           | 1.82           |
+| SAP SE                        | 1.81           |
+| Teradyne, Inc.	               | 1.77           |
+| Constellation Software, Inc.	 | 1.77           |
+
+
+### Links
+
+- [JustETF Data](https://www.justetf.com/en/etf-profile.html?isin=IE00BYZK4552#overview)
