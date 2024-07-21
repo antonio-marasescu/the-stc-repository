@@ -76,7 +76,6 @@ weightings.
 
 | Holding                                      | Percentage (%) |
 |----------------------------------------------|----------------|
-|
 | Taiwan Semiconductor Manufacturing Co., Ltd. | 7.37           |
 | Tencent Holdings Ltd.                        | 3.61           |
 | Samsung Electronics Co., Ltd.                | 2.95           |
@@ -115,7 +114,6 @@ The iShares Automation & Robotics UCITS ETF (2B76.DE) seeks to track the iSTOXXÂ
 
 | Holding                       | Percentage (%) |
 |-------------------------------|----------------|
-|
 | NVIDIA Corp.                  | 3.78           |
 | Lasertec Corp.                | 2.31           |
 | MicroStrategy                 | 2.24           |
