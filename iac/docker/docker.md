@@ -1,12 +1,12 @@
 # Docker Standard Template Construct
 
 ## OS Kernel
-The OS Kernel is responsible for interacting with the underlying hardware
+The **OS Kernel** is responsible for interacting with the underlying hardware
 
 ## Container
 
 ### Definition
-A Container is a lightweight, standalone and executable package that includes everything needed to run an application.
+A **Container** is a lightweight, standalone and executable package that includes everything needed to run an application.
 
 ### Segregation
 It uses the operating system kernel, ensuring  consistency across environments.
@@ -26,16 +26,16 @@ They are isolated through a virtual network, being segregated from the host mach
 
 ### Images
 
-An Image is an lightweight, standalone and immutable blueprint for creating the container, containing the application code, dependencies and configuration for the executable package.
+An **Image** is a lightweight, standalone and immutable blueprint for creating the container, containing the application code, dependencies and configuration for the executable package.
 They have a layered structure, with each layer representing a change (e.g.: adding files or installing software).
 
 ### Volumes
 
-A Volume is a mechanism of persisting data generated and used by the containers. They exist outside the container's file system and are managed by Docker.
+A **Volume** is a mechanism of persisting data generated and used by the containers. They exist outside the container's file system and are managed by Docker.
 
 ### Network
 
-A Network in Docker is feature that allows container to communicate with each other and external systems, providing isolated, configurable and secure connectivity for container in Docker. 
+A **Network** in Docker is feature that allows container to communicate with each other and external systems, providing isolated, configurable and secure connectivity for container in Docker. 
 
 The following types exist:
 - Bridge (Default): containers on the same bridge network can communicate via their container name
