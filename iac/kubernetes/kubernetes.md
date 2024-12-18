@@ -1,12 +1,12 @@
-# Kubernetes
+# Kubernetes Standard Template Construct
 
-## Container
+## Definition
 
-- What is a container
-- How they are isolated
-  - Containers vs Virtual Machines
-- Images
-- How to run a container
+Kubernetes is a container orchestration technology (comparable to Docker Swarm and Mesos from Apache). It helps ensure that apps run reliably across different environments by managing resources like computing, storage, and networking.
+
+## Containers
+
+Reference to [Docker STC](../docker/docker.md)
 
 ## Kubernetes Concepts
 
