@@ -76,6 +76,62 @@ It can hold one or more containers (usually Docker containers) that will share t
 
 **Pods** are scaled / down-scaled by creating new ones or removing them in their entirety (this includes all the container running inside of them).
 
+#### Replicas
+
+##### Replication Controller
+
+
+
+##### ReplicaSets
+
+
+
+## Manifest File
+
+A Kubernetes **Manifest File** is a YAML (or JSON) configuration file used to define the desired state of Kubernetes objects such as Pods, Deployments, Services, ConfigMaps, and more.
+
+```yaml
+apiVersion: v1 # Specifies the API version of the Kubernetes object
+kind: <Pod / Deployment / Service / ConfigMap / Ingress> # Specifies the type of Kubernetes object to create (e.g: Pod, Deployment, Service)
+metadata: # Provides metadata about the object such as its name, namespace, labels and annotations
+ name: nginx # Unique name for the object within its namespace.
+ namespace: production # (Optional) Namespace where the object resides (default is default).
+ labels: # Key-value pairs to categorize and identify objects.
+  app: nginx
+  tier: frontend
+ annotations: # Key-value pairs for additional metadata.
+  description: "This deployment runs the frontend application."
+spec: # Defines the desired state or configuration of the object.
+ containers: # For Pods
+  - name: nginx
+    image: nginx
+```
+
+For the spec part, contents vary depending on the object type: 
+- Deployment: Includes replicas, selector, and template.
+- Pod: Includes containers, volumes, and restartPolicy.
+- Service: Includes type, selector, and ports.
+
+More examples can be found here:
+- [Pod Example](assets/pod-example.yaml)
+- [Config Map Example](assets/configmap-example.yaml)
+- [Service Example](assets/service-example.yaml)
+- [Ingress Example](assets/ingress-example.yaml)
+
+### Best Practices:
+
+#### YAML
+- Use space instead of tabs, since the tab character is illegal withing yaml files.
+- Quote string where necessary
+- Use pipe (|) for multiline string
+  ```yaml
+  data:
+    long-config: |
+      This is a multiline string.
+      Each line is preserved as-is.
+  ```
+- Avoid trailing whitespaces
+
 ## Command Line Utilities
 
 There are several command line utilities available for use in kubernetes:
