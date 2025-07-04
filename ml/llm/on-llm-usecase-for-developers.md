@@ -127,6 +127,13 @@ Leverage LLMs (with multimodal models or image generation tools) to create:
 - Logos
 - UI mockups
 
+### Labelling
+
+The LLM can assist in labeling your dataset according to a specific set of rules. For example, it can help categorize items based on predefined criteria
+
+### Character Inpersonation
+
+The LLM can impersonate a specific character—fantasy or otherwise—by understanding the character’s typical behavior or speech patterns. You can provide context or examples to guide its portrayal.
 
 ## Example on how I use it
 
@@ -151,4 +158,4 @@ I begin by asking the LLM to explain how a concept works, comparing its explanat
 
 ### I want to see if I can improve upon something I developed
 
-I aim to minimize issues in my code and ensure nothing important has been overlooked. To support this, I ask an LLM to review my pull request—either by providing a .patch diff or using an LLM-integrated IDE like Cursor. I review the suggestions it provides, assess their relevance, and apply any necessary fixes accordingly.
+I aim to minimize issues in my code and ensure nothing important has been overlooked. To support this, I ask an LLM to review my pull request—either by providing a `.patch` diff or using an LLM-integrated IDE like Cursor. I review the suggestions it provides, assess their relevance, and apply any necessary fixes accordingly.
