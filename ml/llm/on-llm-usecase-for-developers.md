@@ -133,6 +133,10 @@ Most importantly, you must understand the proposed solution—not just apply it 
 
 Use LLMs to review pull requests or code snippets. They often catch issues or offer suggestions you might overlook.
 
+For example, as a very simple code review tool, offer the LLM the ".diff" of your PR (by appending ".diff" to your PR url) and ask him to code review it.
+
+You can also use proper tools / extensions that do this for you (free or otherwise).
+
 #### Code Refinement
 
 LLMs are useful for improving isolated methods or functions. Prompts such as “refactor,” or “optimize,” often yield good results.
