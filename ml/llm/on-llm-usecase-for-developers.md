@@ -30,6 +30,7 @@ It is of course, opinionated and based on personal observation.
    - [Image Generation](#image-generation)
    - [Labelling](#labelling)
    - [Character Impersonation](#character-impersonation)
+   - [Information Search](#information-search)
 6. [Example on how I use it](#example-on-how-i-use-it)
    - [Authentication on WebSockets](#authentication-on-websockets)
    - [Evaluating Scalability of the WebSocket Implementation](#evaluating-scalability-of-the-websocket-implementation)
@@ -188,6 +189,11 @@ The LLM can assist in labeling your dataset according to a specific set of rules
 
 The LLM can impersonate a specific character—fantasy or otherwise—by understanding the character’s typical behavior or speech patterns. You can provide context or examples to guide its portrayal.
 This is the basis for any virtual agent.
+
+### Information Search
+
+The LLM can assist in quickly finding information on a specific topic, as long as the information exists within its training data. For newer information, consider providing a link to the relevant documentation.
+If the information needs to be gathered from multiple sources, or if you're unsure of the exact source and require high confidence in the quality of the answer, consider using Perplexity instead.
 
 ## Example on how I use it
 
