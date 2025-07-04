@@ -89,6 +89,8 @@ This includes testing something, like a feature or a class.
 
 Failing to meet these requirements typically results in low-quality output.
 
+Another idea for testing specifically is to offer in the context a ".diff" of the changes of the affected file, so the LLm knows what it should add as tests.
+
 ### Exploratory Use Cases
 
 #### Investigative Coding
