@@ -28,11 +28,14 @@ This document outlines practical use cases for integrating Large Language Models
 
 Attempting to generate full large-scale features in a single prompt often yields poor results. Instead:
 
-- Decompose features into smaller, modular tasks.
+- Making think of a plan for the solution first before acting to do any changes
+- Review said plan and consider if any changes to it are required.
+- Alternatively, another approach is to make the LLM ask you any question he thinks might have regarding your solution (e.g.: "Ask any clarification question you feel it might be needed"). This not only helps the LLM, but it also helps you consider the edge-cases for a solution.
+- Decompose features into smaller, modular tasks, separated by you.
 - Treat each task independently, providing focused and relevant context.
 - Follow the guidance outlined in **Small-Scale Feature Development**.
 
-From experience, it is often faster and more reliable to implement large features manually unless LLM context is tightly controlled.
+From my personal observations, it is often faster and more reliable to implement large features manually unless LLM context is tightly controlled.
 
 #### Small-Scale Features
 
@@ -44,6 +47,7 @@ This includes testing something, like a feature or a class.
 - Include architecture rules or project structure documents.
 - Provide the LLM IDE with relevant coding standards or linting rules.
 - Add any related files (e.g., test files, DTOs, entities, utility functions) to the LLM’s context.
+- Making think of a plan for the solution first before acting to do any changes
 
 Failing to meet these requirements typically results in low-quality output.
 
