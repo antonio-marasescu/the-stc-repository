@@ -38,7 +38,7 @@ I do not aim to create a general manual for LLM, mostly this is presented as a s
    - [Evaluating Scalability of the WebSocket Implementation](#evaluating-scalability-of-the-websocket-implementation)
    - [Improvement ideas on code](#improvement-ideas-on-code)
    - [I need to implement something new](#i-need-to-implement-something-new)
-   - [I want to see if I can improve upon something I developed](#i-want-to-see-if-i-can-improve-upon-something-i-developed)
+   - [I want to do a code review on a feature I developed](#i-want-to-do-a-code-review-on-a-feature-i-developed)
 7. [Prompt Examples](#prompt-examples)
 
 
@@ -233,7 +233,7 @@ I implemented a feature, but was unsatisfied with the code quality and felt it c
 
 I begin by asking the LLM to explain how a concept works, comparing its explanation with my existing knowledge. Then, I request a basic implementation to study and analyze. I follow up with targeted questions—such as clarifications around specific components, security concerns, or potential optimizations. To broaden my understanding, I use Perplexity to explore how the solution is typically implemented at an enterprise level. Based on this comparative analysis, I make an informed decision on the best approach.
 
-#### I want to a code review on a feature I developed
+#### I want to do a code review on a feature I developed
 
 I aim to minimize issues in my code and ensure nothing important has been overlooked. To support this, I ask an LLM to review my pull request—either by providing a `.patch` diff or using an LLM-integrated IDE like Cursor. I review the suggestions it provides, assess their relevance, and apply any necessary fixes accordingly.
 
