@@ -9,6 +9,7 @@ This document outlines practical use cases for integrating Large Language Models
 - **Perplexity** – For AI-assisted search and technical research ([perplexity.ai](https://www.perplexity.ai/))
 - **ChatGPT** – For general conversational interactions ([chatgpt.com](https://chatgpt.com/))
 - **CodeRabbit** - For code reviews ([CodeRabbit](https://www.coderabbit.ai/))
+- **WisprFlow.ai** - For speech-to-text so you can create prompts faster ([WisprFlow.ai](https://wisprflow.ai/)) (alternatives to this are OpenAI ChatGPT Client Desktop / Web and you can copy the result)
 
 ## Best Practices
 
@@ -73,7 +74,7 @@ For unknown features or technologies, LLMs can act as a first-pass researcher. A
 Continue the conversation with the LLM for deeper technical insights.
 ** If the code needed requires documentation that the LLM is not yet trained on, pass a link to the current documentation in the context**
 
-### Debugging Coding
+### Code Debugging
 
 Providing the LLM with sufficient context can yield useful ideas or guidance for resolving an issue. 
 However, it's essential to manually verify whether the suggested solution actually works.
@@ -88,6 +89,16 @@ Use LLMs to review pull requests or code snippets. They often catch issues or of
 #### Code Refinement
 
 LLMs are useful for improving isolated methods or functions. Prompts such as “refactor,” or “optimize,” often yield good results.
+
+### Data Generation & Analysis
+
+#### Data Generation
+You can use an LLM to generate mock data for your application or simply create a factory function to generate said data.
+To function properly, give the LLM as context a strict type of the data you want to generate (e.g.: a class, a type or a zod schema) with description.
+
+#### Data Analysis
+Providing the LLM with a certain dataset can help you receive some useful insights about it. 
+However, be careful and double-check if the information provided to you is true by checking the actual data.
 
 ## General-Purpose Applications
 
@@ -138,6 +149,6 @@ I implemented a feature, but was unsatisfied with the code quality and felt it c
 
 I begin by asking the LLM to explain how a concept works, comparing its explanation with my existing knowledge. Then, I request a basic implementation to study and analyze. I follow up with targeted questions—such as clarifications around specific components, security concerns, or potential optimizations. To broaden my understanding, I use Perplexity to explore how the solution is typically implemented at an enterprise level. Based on this comparative analysis, I make an informed decision on the best approach.
 
-### Code Review
+### I want to see if I can improve upon something I developed
 
 I aim to minimize issues in my code and ensure nothing important has been overlooked. To support this, I ask an LLM to review my pull request—either by providing a .patch diff or using an LLM-integrated IDE like Cursor. I review the suggestions it provides, assess their relevance, and apply any necessary fixes accordingly.
