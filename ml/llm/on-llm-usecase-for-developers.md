@@ -58,7 +58,8 @@ I do not aim to create a general manual for LLM, mostly this is presented as a s
 - **Plan First**: Ask the LLM first for a plan of any changes he wants to propose, this makes him reason and think about his approach and would give you a more qualitive output.
 - **Context Degradation**: As context accumulates, LLM performance typically degrades. Start a new session when output quality drops. Summarize relevant details from prior sessions before continuing.
 - **Context Formatting**: Clearly delineate input using appropriate markers (`triple backticks`, XML-style tags, etc.), tailored to the LLM’s parsing preferences.
-- **Supply Relevant Context**: If you want to create something specific, give him one or more examples of the desired result.
+- **Supply Examples**: If you want to create something specific, give him one or more examples of the desired result.
+- **Avoid Negation**: LLMs exhibit a tendency to overlook or misinterpret negative instructions. See more at this blog: [LLMs Don't Understand Negation](https://hackernoon.com/llms-dont-understand-negation).
 
 ## LLM Use Cases in Development
 
