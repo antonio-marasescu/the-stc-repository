@@ -1,6 +1,7 @@
 # Leveraging LLMs in Software Development
 
-This document outlines practical use cases for integrating Large Language Models (LLMs) into your software development workflow.
+This document offers some practical use cases for integrating Large Language Models (LLMs) into your development workflow.
+It is of course, opinionated and based on personal observation.
 
 ## Recommended Tools
 
@@ -65,7 +66,9 @@ For unknown features or technologies, LLMs can act as a first-pass researcher. A
 
 - Initial implementation steps
 - API usage examples
-- Dependency suggestions
+- Dependency suggestions (e.g.: What other libraries could be used to implement this solution)
+
+**Note:** For research purposes it is better to use Perplexity, however for small and often well-known libraries a normal LLM is good enough.
 
 **Follow-up considerations:**
 
@@ -81,7 +84,7 @@ Continue the conversation with the LLM for deeper technical insights.
 
 ### Code Debugging
 
-Providing the LLM with sufficient context can yield useful ideas or guidance for resolving an issue. 
+Providing the LLM with sufficient context (e.g.: types, classes affected or potential places you think the error might originate from) can yield useful ideas or guidance for resolving an issue. 
 However, it's essential to manually verify whether the suggested solution actually works.
 Most importantly, you must understand the proposed solution—not just apply it blindly.
 
@@ -95,6 +98,15 @@ Use LLMs to review pull requests or code snippets. They often catch issues or of
 
 LLMs are useful for improving isolated methods or functions. Prompts such as “refactor,” or “optimize,” often yield good results.
 
+#### Naming
+
+LLM can be useful when you are unsure how to name a certain variable, class or folder. This can either offer you a viable alternative solution or trigger an inspiration inside yourself.
+
+#### Code Structure
+
+LLM can help give you some hints or best practices ideas in how would you structure some certain folders you have in your application, where to best place them.
+Consider giving him as context the existing structure (if it exists) and provide him with information regarding the framework you choose.
+
 ### Data Generation & Analysis
 
 #### Data Generation
@@ -105,7 +117,7 @@ To function properly, give the LLM as context a strict type of the data you want
 Providing the LLM with a certain dataset can help you receive some useful insights about it. 
 However, be careful and double-check if the information provided to you is true by checking the actual data.
 
-## General-Purpose Applications
+## General-Purpose Applications (not necessarily development related)
 
 ### Summarization and Rephrasing
 
@@ -165,3 +177,8 @@ I begin by asking the LLM to explain how a concept works, comparing its explanat
 #### I want to see if I can improve upon something I developed
 
 I aim to minimize issues in my code and ensure nothing important has been overlooked. To support this, I ask an LLM to review my pull request—either by providing a `.patch` diff or using an LLM-integrated IDE like Cursor. I review the suggestions it provides, assess their relevance, and apply any necessary fixes accordingly.
+
+
+## Prompt Examples
+
+tba
