@@ -131,9 +131,10 @@ Leverage LLMs (with multimodal models or image generation tools) to create:
 
 The LLM can assist in labeling your dataset according to a specific set of rules. For example, it can help categorize items based on predefined criteria
 
-### Character Inpersonation
+### Character Impersonation
 
 The LLM can impersonate a specific character—fantasy or otherwise—by understanding the character’s typical behavior or speech patterns. You can provide context or examples to guide its portrayal.
+This is the basis for any virtual agent.
 
 ## Example on how I use it
 
