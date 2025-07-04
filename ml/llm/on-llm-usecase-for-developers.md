@@ -3,6 +3,8 @@
 This document offers some practical use cases for integrating Large Language Models (LLMs) into your development workflow.
 It is of course, opinionated and based on personal observation.
 
+I do not aim to create a general manual for LLM, mostly this is presented as a source of inspiration.
+
 ## Table of Contents
 
 1. [Leveraging LLMs in Software Development](#leveraging-llms-in-software-development)
@@ -62,6 +64,8 @@ It is of course, opinionated and based on personal observation.
 
 ### Feature Development
 
+Many people consider this to be the most valuable way an LLM supports day-to-day development. However, I’d argue that while it can be helpful, the quality of its output is often lacking. To get a high-quality result, you usually need to invest significant time providing the LLM with the right context. For small changes, it often feels like you'd achieve better results—and faster—by just doing it yourself from scratch. I still tend to agree with that perspective, although it really depends on the use case. For example, when it comes to testing, the LLM can produce good-enough results with minimal effort, provided the context is well-defined.
+
 #### Large-Scale Features
 
 Attempting to generate full large-scale features in a single prompt often yields poor results. Instead:
@@ -92,6 +96,8 @@ Failing to meet these requirements typically results in low-quality output.
 Another idea for testing specifically is to offer in the context a ".diff" of the changes of the affected file, so the LLm knows what it should add as tests.
 
 ### Exploratory Use Cases
+
+I feel this is an often-overlooked benefit of LLMs—some people may take advantage of it without realizing, while others might not have considered it at all
 
 #### Investigative Coding
 
@@ -127,6 +133,8 @@ Providing the LLM with sufficient context (e.g.: types, classes affected or pote
 However, it's essential to manually verify whether the suggested solution actually works.
 Most importantly, you must understand the proposed solution—not just apply it blindly.
 
+This is one of the most commonly used use cases among developers.
+
 ### Code Review & Improvement
 
 #### Review Assistance
@@ -136,6 +144,8 @@ Use LLMs to review pull requests or code snippets. They often catch issues or of
 For example, as a very simple code review tool, offer the LLM the ".diff" of your PR (by appending ".diff" to your PR url) and ask him to code review it.
 
 You can also use proper tools / extensions that do this for you (free or otherwise).
+
+This is again an often-overlooked benefit of LLMs—some people may take advantage of.
 
 #### Code Refinement
 
