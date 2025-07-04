@@ -72,7 +72,8 @@ For unknown features or technologies, LLMs can act as a first-pass researcher. A
 - What alternatives exist, and how do they compare?
 
 Continue the conversation with the LLM for deeper technical insights.
-** If the code needed requires documentation that the LLM is not yet trained on, pass a link to the current documentation in the context**
+
+**If the code needed requires documentation that the LLM is not yet trained on, pass a link to the current documentation in the context**
 
 ### Code Debugging
 
