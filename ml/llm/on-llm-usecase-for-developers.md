@@ -3,6 +3,42 @@
 This document offers some practical use cases for integrating Large Language Models (LLMs) into your development workflow.
 It is of course, opinionated and based on personal observation.
 
+## Table of Contents
+
+1. [Leveraging LLMs in Software Development](#leveraging-llms-in-software-development)
+2. [Recommended Tools](#recommended-tools)
+3. [Best Practices](#best-practices)
+4. [LLM Use Cases in Development](#llm-use-cases-in-development)
+   - [Feature Development](#feature-development)
+     - [Large-Scale Features](#large-scale-features)
+     - [Small-Scale Features](#small-scale-features)
+   - [Exploratory Use Cases](#exploratory-use-cases)
+     - [Investigative Coding](#investigative-coding)
+     - [Research Coding](#research-coding)
+   - [Code Debugging](#code-debugging)
+   - [Code Review & Improvement](#code-review--improvement)
+     - [Review Assistance](#review-assistance)
+     - [Code Refinement](#code-refinement)
+     - [Naming](#naming)
+     - [Code Structure](#code-structure)
+   - [Data Generation & Analysis](#data-generation--analysis)
+     - [Data Generation](#data-generation)
+     - [Data Analysis](#data-analysis)
+5. [General-Purpose Applications (not necessarily development related)](#general-purpose-applications-not-necessarily-development-related)
+   - [Summarization and Rephrasing](#summarization-and-rephrasing)
+   - [Content Generation](#content-generation)
+   - [Image Generation](#image-generation)
+   - [Labelling](#labelling)
+   - [Character Impersonation](#character-impersonation)
+6. [Example on how I use it](#example-on-how-i-use-it)
+   - [Authentication on WebSockets](#authentication-on-websockets)
+   - [Evaluating Scalability of the WebSocket Implementation](#evaluating-scalability-of-the-websocket-implementation)
+   - [Improvement ideas on code](#improvement-ideas-on-code)
+   - [I need to implement something new](#i-need-to-implement-something-new)
+   - [I want to see if I can improve upon something I developed](#i-want-to-see-if-i-can-improve-upon-something-i-developed)
+7. [Prompt Examples](#prompt-examples)
+
+
 ## Recommended Tools
 
 - **Cursor** / **Windsurf** – LLM-powered IDEs
